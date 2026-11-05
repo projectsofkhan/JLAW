@@ -10,16 +10,20 @@
 
     let currentIndex = 0;
 
+    const buildDots = () => {
+        const dots = document.createElement('div');
+        dots.className = 'rainbow-dots';
+        for (let i = 0; i < 7; i++) dots.appendChild(document.createElement('span'));
+        return dots;
+    };
+
     const buildFrame = (wrapper) => {
-        if (wrapper.classList.contains('cover-page')) {
-            const frame = document.createElement('div');
-            frame.className = 'cover-frame';
-            wrapper.appendChild(frame);
-        } else if (wrapper.classList.contains('outro-page')) {
-            const frame = document.createElement('div');
-            frame.className = 'outro-frame';
-            wrapper.appendChild(frame);
-        }
+        const frame = document.createElement('div');
+        if (wrapper.classList.contains('cover-page')) frame.className = 'cover-frame';
+        else if (wrapper.classList.contains('outro-page')) frame.className = 'outro-frame';
+        else return;
+        wrapper.appendChild(frame);
+        wrapper.appendChild(buildDots());
     };
 
     const renderPage = (index) => {
@@ -58,19 +62,8 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    const goPrev = () => {
-        if (currentIndex > 0) {
-            currentIndex--;
-            renderPage(currentIndex);
-        }
-    };
-
-    const goNext = () => {
-        if (currentIndex < pages.length - 1) {
-            currentIndex++;
-            renderPage(currentIndex);
-        }
-    };
+    const goPrev = () => { if (currentIndex > 0) { currentIndex--; renderPage(currentIndex); } };
+    const goNext = () => { if (currentIndex < pages.length - 1) { currentIndex++; renderPage(currentIndex); } };
 
     prevBtn.addEventListener('click', goPrev);
     nextBtn.addEventListener('click', goNext);
@@ -84,11 +77,8 @@
         if (e.target.closest('.bottom-nav')) return;
         if (e.target.closest('.theme-toggle')) return;
 
-        const size = 160;
         const ripple = document.createElement('div');
         ripple.className = 'click-ripple';
-        ripple.style.width = size + 'px';
-        ripple.style.height = size + 'px';
         ripple.style.left = e.clientX + 'px';
         ripple.style.top = e.clientY + 'px';
         document.body.appendChild(ripple);
@@ -101,7 +91,5 @@
         themeIcon.textContent = isDark ? '☀' : '☾';
     });
 
-    if (pages && pages.length) {
-        renderPage(0);
-    }
+    if (pages && pages.length) renderPage(0);
 })();
