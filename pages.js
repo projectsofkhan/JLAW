@@ -113,16 +113,14 @@ addCoverStyles();
 const pages = [
     {
         title: "Just Like A Whisper",
-        content: `╔══════════╗
-LIGHT NOVEL
-╠══════════╣
+        content: `LIGHT NOVEL
+
 JUST LIKE A WHISPER
-╠══════════╣
+
 Total Episodes: 22
-╠══════════╣
-           Created By:
-         ZEESHAN KHAN
-╚══════════╝
+
+Created By:
+ZEESHAN KHAN
 `
     },
     {
@@ -1984,20 +1982,15 @@ THE END
     },
     {
         title: "The End",
-        content: `╔══════════╗
-           THANK YOU FOR READING
-╠══════════╣
+        content: `THANK YOU FOR READING
+
 JUST LIKE A WHISPER
-╠══════════╣
 
 Contact the Author:
 
-storieswebsite1@gmail.com 
-zeeshan40u@gmail.com
+storieswebsite1@gmail.com
 
-╠══════════╣
 Stay tuned for what comes next.
-╚══════════╝
 `
     }
 ];
