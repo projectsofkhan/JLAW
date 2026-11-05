@@ -117,7 +117,6 @@ const pages = [
 LIGHT NOVEL
 ╠══════════╣
 JUST LIKE A WHISPER
-SEASON ONE
 ╠══════════╣
 Total Episodes: 22
 ╠══════════╣
@@ -161,8 +160,6 @@ A world at war.
 
 And in the depths of the jungle...
 their real story begins.
-
-__________________________________________
 `
     },
     {
@@ -194,9 +191,7 @@ and one watched the darkness to protect.
 Eventually, exhaustion won.
 They fell asleep.
 
----
-
-Morning — Episode Continues
+Morning came.
 
 Feris woke up early.
 
@@ -209,8 +204,6 @@ Joie woke up.
 She slowly walked to him, held his hand, and said softly:
 
 "Brother… I'm hungry."
-
-__________________________________________
 `
     },
     {
@@ -340,8 +333,6 @@ As they were leaving, the child's mother called out and handed them the food the
 
 Feris accepted it gratefully.
 "Thank you very much, ma'am."
-
----
 
 As they walked back home, Joie giggled.
 "Oh, brother — I know you too well! You grabbed the food immediately because you didn't want to take risks. If you'd said no thanks, and if she hadn't given it to you, you'd have had to find food elsewhere. That's why you acted fast!"
@@ -1722,8 +1713,6 @@ The leader nodded and explained the entire plan.
 
 And they began.
 
----
-
 After the plan was set, the leader said urgently,
 
 "Feris, we have to go now. The king isn't far. Are you ready?"
@@ -1734,8 +1723,6 @@ Feris panicked.
 "There's no other choice," the leader said sadly. "The king's convoy moves faster than us."
 
 Feris cried silently. He hugged Joie tightly, kissed her hand, then turned away and followed them.
-
----
 
 The plan began.
 
@@ -1829,8 +1816,6 @@ Her feet tore through the undergrowth. Branches whipped her cheeks. She didn't f
 
 Her voice cracked against the trees.
 
----
-
 Far ahead, on the road, Feris heard something.
 
 It was faint — almost swallowed by the wind — but he knew it.
@@ -1851,16 +1836,12 @@ He only cared about her.
 
 He broke away from the Acurs and ran back.
 
----
-
 The soldiers saw it.
 
 The commander raised his hand.
 "Archers."
 
 The king's men drew their bows.
-
----
 
 Feris and Joie ran toward each other.
 
@@ -1953,8 +1934,6 @@ And in the quiet, as the world dimmed around him, he whispered the last thing he
 
 "I'll find you."
 
----
-
 The soldiers lowered their bows.
 
 The commander said nothing.
@@ -1970,8 +1949,6 @@ The wind passed over them, softly — just like a whisper.
 
 And the war, which had taken everything from them, took them too.
 
----
-
 Behind them, in the distance, a single old man rowed toward the shore.
 
 He did not know yet.
@@ -1982,8 +1959,6 @@ He did not try to separate their hands.
 
 He only closed their eyes — hers first, then his —
 and whispered, "Sleep, children. You are together now. You always were."
-
----
 
 Far away, the war ended.
 
@@ -2013,7 +1988,6 @@ THE END
            THANK YOU FOR READING
 ╠══════════╣
 JUST LIKE A WHISPER
-SEASON ONE
 ╠══════════╣
 
 Contact the Author:
@@ -2022,7 +1996,7 @@ storieswebsite1@gmail.com
 zeeshan40u@gmail.com
 
 ╠══════════╣
-Stay tuned for Season Two!
+Stay tuned for what comes next.
 ╚══════════╝
 `
     }
@@ -2035,7 +2009,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const firstPage = container.querySelector('#page-1');
             if (firstPage) firstPage.classList.add('cover-page');
 
-            const lastPage = container.querySelector('#page-25');
+            const lastPage = container.querySelector('#page-' + pages.length);
             if (lastPage) lastPage.classList.add('outro-page');
         }
     };
