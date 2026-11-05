@@ -6,6 +6,19 @@ const pages = [
 JUST LIKE A WHISPER
 
 Total Episodes: 22
+
+Two children.
+One war.
+A love that refused to end.
+
+Where every voice fades
+and every promise lingers —
+listen closely.
+
+Some stories are not shouted.
+They are whispered.
+
+This is one of them.
 `
     },
     {
@@ -1875,7 +1888,8 @@ Contact the Author:
 
 storieswebsite1@gmail.com
 
-Stay tuned for what comes next.
+The Story starts and ends —
+Just Like A Whisper.
 `
     }
 ];
