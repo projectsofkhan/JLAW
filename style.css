@@ -7,13 +7,15 @@
     --font-serif: 'Cormorant Garamond', Georgia, serif;
     --font-sans: 'Inter', system-ui, sans-serif;
 
-    --rainbow-1: #ff7a7a;
-    --rainbow-2: #ffb36b;
-    --rainbow-3: #ffe27a;
-    --rainbow-4: #a8e0b8;
-    --rainbow-5: #8ec7ff;
-    --rainbow-6: #b3b3ff;
-    --rainbow-7: #d9a8ff;
+    --r1: #ff7a7a;
+    --r2: #ffb36b;
+    --r3: #ffe27a;
+    --r4: #a8e0b8;
+    --r5: #8ec7ff;
+    --r6: #b3b3ff;
+    --r7: #d9a8ff;
+
+    --rainbow: linear-gradient(90deg, var(--r1), var(--r2), var(--r3), var(--r4), var(--r5), var(--r6), var(--r7));
 }
 
 body.theme-dark {
@@ -25,7 +27,6 @@ body.theme-dark {
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 html, body { min-height: 100%; }
 
 body {
@@ -91,15 +92,14 @@ body {
 
 .whisper-main { flex: 1; }
 
-/* Soft fade only — no burst, no colour, nothing on every page */
 .page {
     position: relative;
-    animation: softFade 1.2s ease both;
+    animation: fadeUp 1.1s cubic-bezier(0.2, 0.6, 0.25, 1) both;
 }
 
-@keyframes softFade {
-    0%   { opacity: 0; }
-    100% { opacity: 1; }
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
 }
 
 .page-title {
@@ -138,13 +138,16 @@ body {
     letter-spacing: 0.005em;
 }
 
-/* ============ COVER & OUTRO — rainbow only here ============ */
+/* ============================================================
+   COVER & OUTRO — the only place where colour lives
+   ============================================================ */
 .cover-page,
 .outro-page {
     padding: clamp(28px, 5vw, 48px) clamp(16px, 3vw, 28px);
     overflow: hidden;
     position: relative;
     border-radius: 6px;
+    isolation: isolate;
 }
 
 .cover-page .page-title,
@@ -155,17 +158,15 @@ body {
     padding-bottom: 0;
     z-index: 3;
     position: relative;
-    animation: rainbowGlow 12s ease-in-out infinite alternate;
+    animation: titleRainbow 14s linear infinite;
 }
 
-@keyframes rainbowGlow {
-    0%   { text-shadow: 0 0 20px rgba(255, 122, 122, 0.45); }
-    17%  { text-shadow: 0 0 20px rgba(255, 179, 107, 0.45); }
-    33%  { text-shadow: 0 0 20px rgba(255, 226, 122, 0.45); }
-    50%  { text-shadow: 0 0 20px rgba(168, 224, 184, 0.45); }
-    67%  { text-shadow: 0 0 20px rgba(142, 199, 255, 0.45); }
-    83%  { text-shadow: 0 0 20px rgba(179, 179, 255, 0.45); }
-    100% { text-shadow: 0 0 20px rgba(217, 168, 255, 0.45); }
+@keyframes titleRainbow {
+    0%   { text-shadow: 0 0 22px rgba(255,122,122,0.5); }
+    25%  { text-shadow: 0 0 22px rgba(255,226,122,0.5); }
+    50%  { text-shadow: 0 0 22px rgba(168,224,184,0.5); }
+    75%  { text-shadow: 0 0 22px rgba(142,199,255,0.5); }
+    100% { text-shadow: 0 0 22px rgba(217,168,255,0.5); }
 }
 
 .cover-page .page-content,
@@ -181,7 +182,7 @@ body {
     margin-top: 22px;
 }
 
-/* Rainbow ambient orbs — very slow */
+/* Rainbow aura behind cover/outro */
 .cover-page::before,
 .outro-page::before {
     content: "";
@@ -190,22 +191,64 @@ body {
     z-index: 1;
     pointer-events: none;
     background:
-        radial-gradient(circle at 14% 20%, rgba(255, 122, 122, 0.35), transparent 32%),
-        radial-gradient(circle at 78% 14%, rgba(255, 179, 107, 0.32), transparent 30%),
-        radial-gradient(circle at 88% 60%, rgba(255, 226, 122, 0.32), transparent 32%),
-        radial-gradient(circle at 22% 78%, rgba(168, 224, 184, 0.32), transparent 34%),
-        radial-gradient(circle at 55% 90%, rgba(142, 199, 255, 0.30), transparent 32%),
-        radial-gradient(circle at 40% 42%, rgba(179, 179, 255, 0.28), transparent 36%),
-        radial-gradient(circle at 68% 35%, rgba(217, 168, 255, 0.28), transparent 34%);
-    filter: blur(24px);
-    animation: rainbowDrift 48s ease-in-out infinite alternate;
-    opacity: 0.8;
+        radial-gradient(circle at 14% 20%, rgba(255,122,122,0.32), transparent 32%),
+        radial-gradient(circle at 78% 16%, rgba(255,179,107,0.30), transparent 30%),
+        radial-gradient(circle at 88% 62%, rgba(255,226,122,0.30), transparent 32%),
+        radial-gradient(circle at 20% 80%, rgba(168,224,184,0.30), transparent 34%),
+        radial-gradient(circle at 55% 92%, rgba(142,199,255,0.28), transparent 32%),
+        radial-gradient(circle at 40% 44%, rgba(179,179,255,0.26), transparent 36%),
+        radial-gradient(circle at 68% 38%, rgba(217,168,255,0.26), transparent 34%);
+    filter: blur(26px);
+    animation: auraDrift 44s ease-in-out infinite alternate;
 }
 
-@keyframes rainbowDrift {
-    0%   { transform: translate3d(0, 0, 0) scale(1) rotate(0deg); }
-    50%  { transform: translate3d(-10px, 8px, 0) scale(1.04) rotate(2deg); }
-    100% { transform: translate3d(10px, -8px, 0) scale(0.98) rotate(-2deg); }
+@keyframes auraDrift {
+    0%   { transform: translate3d(0,0,0) rotate(0deg) scale(1); }
+    50%  { transform: translate3d(-8px, 8px, 0) rotate(2deg) scale(1.04); }
+    100% { transform: translate3d(10px,-8px, 0) rotate(-2deg) scale(0.98); }
+}
+
+/* Slow floating rainbow dots on cover/outro */
+.cover-page .rainbow-dots,
+.outro-page .rainbow-dots {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.cover-page .rainbow-dots span,
+.outro-page .rainbow-dots span {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.55;
+    animation: dotFloat 22s ease-in-out infinite;
+    filter: blur(0.4px);
+}
+
+.cover-page .rainbow-dots span:nth-child(1),
+.outro-page .rainbow-dots span:nth-child(1) { left: 12%; top: 18%; background: var(--r1); animation-delay: 0s; }
+.cover-page .rainbow-dots span:nth-child(2),
+.outro-page .rainbow-dots span:nth-child(2) { left: 78%; top: 22%; background: var(--r2); animation-delay: -3s; }
+.cover-page .rainbow-dots span:nth-child(3),
+.outro-page .rainbow-dots span:nth-child(3) { left: 30%; top: 72%; background: var(--r3); animation-delay: -6s; }
+.cover-page .rainbow-dots span:nth-child(4),
+.outro-page .rainbow-dots span:nth-child(4) { left: 68%; top: 80%; background: var(--r4); animation-delay: -9s; }
+.cover-page .rainbow-dots span:nth-child(5),
+.outro-page .rainbow-dots span:nth-child(5) { left: 85%; top: 55%; background: var(--r5); animation-delay: -12s; }
+.cover-page .rainbow-dots span:nth-child(6),
+.outro-page .rainbow-dots span:nth-child(6) { left: 18%; top: 48%; background: var(--r6); animation-delay: -15s; }
+.cover-page .rainbow-dots span:nth-child(7),
+.outro-page .rainbow-dots span:nth-child(7) { left: 50%; top: 88%; background: var(--r7); animation-delay: -18s; }
+
+@keyframes dotFloat {
+    0%   { transform: translate3d(0,0,0) scale(1); opacity: 0.45; }
+    50%  { transform: translate3d(6px,-10px,0) scale(1.15); opacity: 0.75; }
+    100% { transform: translate3d(-6px,6px,0) scale(0.95); opacity: 0.5; }
 }
 
 /* Rainbow frame */
@@ -216,69 +259,51 @@ body {
     z-index: 2;
     pointer-events: none;
     border-radius: 8px;
-    animation: frameHold 10s ease-in-out infinite alternate;
-}
-
-.cover-frame::before,
-.outro-frame::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 8px;
     border: 1px dashed transparent;
     background:
         linear-gradient(var(--paper), var(--paper)) padding-box,
-        linear-gradient(120deg,
-            var(--rainbow-1),
-            var(--rainbow-2),
-            var(--rainbow-3),
-            var(--rainbow-4),
-            var(--rainbow-5),
-            var(--rainbow-6),
-            var(--rainbow-7)) border-box;
+        var(--rainbow) border-box;
     background-clip: padding-box, border-box;
-    opacity: 0.4;
-    animation: rainbowFrame 14s linear infinite;
+    opacity: 0.35;
+    animation: frameHue 16s linear infinite;
 }
 
-@keyframes rainbowFrame {
-    0%   { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(360deg); }
+@keyframes frameHue {
+    from { filter: hue-rotate(0deg); }
+    to   { filter: hue-rotate(360deg); }
 }
 
-@keyframes frameHold {
-    0%, 100% { opacity: 0.9; }
-    50%      { opacity: 1; }
-}
-
-/* ============ Click rainbow ring — slow, tasteful ============ */
+/* ============================================================
+   CLICK RIPPLE — a slow rainbow bloom on tap
+   ============================================================ */
 .click-ripple {
     position: fixed;
+    width: 160px;
+    height: 160px;
     pointer-events: none;
     z-index: 999;
-    transform: translate(-50%, -50%) scale(0.3);
+    transform: translate(-50%, -50%) scale(0.2);
     border-radius: 50%;
-    border: 2px solid transparent;
-    background:
-        radial-gradient(circle, transparent 55%, rgba(255,255,255,0) 60%);
     box-shadow:
-        0 0 0 1px rgba(255, 122, 122, 0.4),
-        0 0 0 8px rgba(255, 179, 107, 0.35),
-        0 0 0 16px rgba(255, 226, 122, 0.30),
-        0 0 0 24px rgba(168, 224, 184, 0.25),
-        0 0 0 32px rgba(142, 199, 255, 0.20),
-        0 0 0 40px rgba(179, 179, 255, 0.15),
-        0 0 0 48px rgba(217, 168, 255, 0.10);
-    animation: rainbowRing 2.2s cubic-bezier(0.2, 0.6, 0.25, 1) forwards;
+        0 0 0 1px   rgba(255,122,122,0.45),
+        0 0 0 8px   rgba(255,179,107,0.35),
+        0 0 0 16px  rgba(255,226,122,0.30),
+        0 0 0 24px  rgba(168,224,184,0.25),
+        0 0 0 32px  rgba(142,199,255,0.20),
+        0 0 0 40px  rgba(179,179,255,0.15),
+        0 0 0 48px  rgba(217,168,255,0.10);
+    animation: rippleBloom 2.2s cubic-bezier(0.2, 0.6, 0.25, 1) forwards;
 }
 
-@keyframes rainbowRing {
-    0%   { transform: translate(-50%, -50%) scale(0.2); opacity: 0.95; filter: hue-rotate(0deg); }
-    45%  { opacity: 0.6; }
+@keyframes rippleBloom {
+    0%   { transform: translate(-50%, -50%) scale(0.2); opacity: 1; filter: hue-rotate(0deg); }
+    50%  { opacity: 0.55; }
     100% { transform: translate(-50%, -50%) scale(1.8); opacity: 0; filter: hue-rotate(60deg); }
 }
 
-/* ============ BOTTOM NAV ============ */
+/* ============================================================
+   BOTTOM NAV
+   ============================================================ */
 .bottom-nav {
     position: fixed;
     left: 50%;
@@ -320,10 +345,7 @@ body {
     transform: translateY(-1px);
 }
 
-.nav-btn:disabled {
-    opacity: 0.28;
-    cursor: not-allowed;
-}
+.nav-btn:disabled { opacity: 0.28; cursor: not-allowed; }
 
 .page-indicator {
     font-family: var(--font-sans);
@@ -335,10 +357,7 @@ body {
     text-align: center;
 }
 
-.page-divider {
-    margin: 0 4px;
-    opacity: 0.5;
-}
+.page-divider { margin: 0 4px; opacity: 0.5; }
 
 .progress-line {
     position: absolute;
@@ -346,7 +365,6 @@ body {
     left: 16px;
     right: 16px;
     height: 2px;
-    background: transparent;
     border-radius: 2px;
     overflow: hidden;
     pointer-events: none;
@@ -355,27 +373,22 @@ body {
 .progress-fill {
     height: 100%;
     width: 0;
-    background: linear-gradient(90deg,
-        var(--rainbow-1),
-        var(--rainbow-2),
-        var(--rainbow-3),
-        var(--rainbow-4),
-        var(--rainbow-5),
-        var(--rainbow-6),
-        var(--rainbow-7));
+    background: var(--rainbow);
     background-size: 400% 100%;
-    animation: progressRainbow 14s linear infinite;
+    animation: progressCycle 14s linear infinite;
     transition: width 1s cubic-bezier(0.2, 0.6, 0.25, 1);
     opacity: 0.9;
     border-radius: 2px;
 }
 
-@keyframes progressRainbow {
+@keyframes progressCycle {
     0%   { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
 }
 
-/* ============ MEDIA QUERIES ============ */
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
 @media (min-width: 900px) {
     .whisper-frame { max-width: 720px; padding-top: 88px; }
     .page-title { font-size: 2.05rem; }
