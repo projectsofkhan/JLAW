@@ -10,20 +10,24 @@
 
     let currentIndex = 0;
 
+    const THEMES = [
+        { name: 'theme-light',   icon: '☾' },
+        { name: 'theme-rainbow', icon: '🌈' },
+        { name: 'theme-dark',    icon: '☀' }
+    ];
+    let themeIndex = 0;
+
+    const applyTheme = (i) => {
+        THEMES.forEach(t => document.body.classList.remove(t.name));
+        document.body.classList.add(THEMES[i].name);
+        themeIcon.textContent = THEMES[i].icon;
+    };
+
     const buildDots = () => {
         const dots = document.createElement('div');
         dots.className = 'rainbow-dots';
         for (let i = 0; i < 7; i++) dots.appendChild(document.createElement('span'));
         return dots;
-    };
-
-    const buildFrame = (wrapper) => {
-        const frame = document.createElement('div');
-        if (wrapper.classList.contains('cover-page')) frame.className = 'cover-frame';
-        else if (wrapper.classList.contains('outro-page')) frame.className = 'outro-frame';
-        else return;
-        wrapper.appendChild(frame);
-        wrapper.appendChild(buildDots());
     };
 
     const renderPage = (index) => {
@@ -47,7 +51,10 @@
 
         wrapper.appendChild(title);
         wrapper.appendChild(content);
-        buildFrame(wrapper);
+
+        if (wrapper.classList.contains('cover-page') || wrapper.classList.contains('outro-page')) {
+            wrapper.appendChild(buildDots());
+        }
 
         container.innerHTML = '';
         container.appendChild(wrapper);
@@ -82,14 +89,15 @@
         ripple.style.left = e.clientX + 'px';
         ripple.style.top = e.clientY + 'px';
         document.body.appendChild(ripple);
-        setTimeout(() => ripple.remove(), 2400);
+        setTimeout(() => ripple.remove(), 1700);
     });
 
     themeToggle.addEventListener('click', () => {
-        const isDark = document.body.classList.toggle('theme-dark');
-        document.body.classList.toggle('theme-light', !isDark);
-        themeIcon.textContent = isDark ? '☀' : '☾';
+        themeIndex = (themeIndex + 1) % THEMES.length;
+        applyTheme(themeIndex);
     });
+
+    applyTheme(0);
 
     if (pages && pages.length) renderPage(0);
 })();
