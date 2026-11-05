@@ -118,9 +118,6 @@ const pages = [
 JUST LIKE A WHISPER
 
 Total Episodes: 22
-
-Created By:
-ZEESHAN KHAN
 `
     },
     {
