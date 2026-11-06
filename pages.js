@@ -1549,8 +1549,6 @@ The soldiers obeyed.
 
 And Feris and Joie ran on.
 
----
-
 But they didn't get far.
 
 Two of the Acurs caught them from the side — one lifting Feris off his feet, the other holding Joie's arm so tight she cried out.
@@ -1591,8 +1589,6 @@ Then he opened them.
 The leader nodded slowly.
 "Good. But you'll need a bow. And you'll need to learn to use it."
 
----
-
 That night, they killed a soldier from the other kingdom.
 They took his bow. They took his arrows.
 
@@ -1600,8 +1596,6 @@ The leader showed Feris how to stand. How to breathe. How to aim.
 "Not the body," the leader said. "The heart. Always the heart."
 
 Feris practiced until his hands bled.
-
----
 
 They set the plan in motion.
 
@@ -1688,8 +1682,6 @@ Her feet tore through the undergrowth. Branches whipped her cheeks. She didn't f
 
 Her voice cracked against the trees.
 
----
-
 Far ahead, on the road, Feris heard something.
 
 It was faint — almost swallowed by the wind — but he knew it.
@@ -1710,16 +1702,12 @@ He only cared about her.
 
 He ran back.
 
----
-
 The soldiers saw it.
 
 The commander raised his hand.
 "Archers."
 
 The king's men drew their bows.
-
----
 
 Feris and Joie ran toward each other.
 
@@ -1812,8 +1800,6 @@ And in the quiet, as the world dimmed around him, he whispered the last thing he
 
 "I'll find you."
 
----
-
 The soldiers lowered their bows.
 
 The commander said nothing.
@@ -1829,8 +1815,6 @@ The wind passed over them, softly — just like a whisper.
 
 And the war, which had taken everything from them, took them too.
 
----
-
 Behind them, in the distance, a single old man rowed toward the shore.
 
 He did not know yet.
@@ -1841,8 +1825,6 @@ He did not try to separate their hands.
 
 He only closed their eyes — hers first, then his —
 and whispered, "Sleep, children. You are together now. You always were."
-
----
 
 Far away, the war ended.
 
