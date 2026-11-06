@@ -6,11 +6,19 @@ const pages = [
 JUST LIKE A WHISPER
 
 Total Episodes: 19
+
+*All characters, places, and events depicted in this series are entirely fictional. Any resemblance to actual history or persons is purely coincidental.*
 `
     },
     {
         title: "Prologue",
         content: `One night, the Cease Kingdom's army burned an entire village to the ground.
+
+The Cease Kingdom was a great, monstrous empire. Wherever their armies marched, they looted, they set everything on fire, and they dragged the survivors away in chains. They were not fighting for land. They were fighting to erase everything in their path. 
+
+Years before, during the great world war, the Cease Kingdom had marched through Turin and reduced the entire city to ashes. That was the kind of enemy they were.
+
+And on this night, that monstrous army reached the children's village.
 
 Two children — Feris and Joie — were not in the village that night.
 They had been sent to their uncle's house, a short walk away.
@@ -1302,10 +1310,11 @@ The leader laughed bitterly.
 "Because of need. Listen."
 
 And he told his story —
-the Cease Kingdom burning his village,
+how the Cease Kingdom had marched through Turin and burned it to ashes,
+how they had done the same to his village,
 his rise as a soldier,
 his betrayal, imprisonment, escape,
-and his oath to burn everything tied to the kingdom.
+and his oath to burn everything tied to the Cease Kingdom.
 
 "Will you join us?" the leader asked.
 
@@ -2193,6 +2202,8 @@ JUST LIKE A WHISPER
 Contact the Author:
 
 storieswebsite1@gmail.com
+
+*All characters, places, and events depicted in this series are entirely fictional. Any resemblance to actual history or persons is purely coincidental.*
 
 The Story starts and ends —
 Just Like A Whisper.
