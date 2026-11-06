@@ -6,14 +6,6 @@ const pages = [
 JUST LIKE A WHISPER
 
 Total Episodes: 19
-
-Two orphans. 
-One small knife. 
-A monstrous army that took everything.
-
-A quiet, tragic story about a brother who would do anything to protect his sister, and a war that demanded everything in return.
-
-*All characters, places, and events depicted in this series are entirely fictional.*
 `
     },
     {
@@ -555,11 +547,13 @@ And he told his story — a story that was far more tragic than Feris expected. 
 
 The leader looked at Feris. "Will you join us?"
 
-Feris raised his head. "No. I won't join you."
+Feris didn't answer right away. His hands were shaking. He was just a boy, tired and hungry, and this man was asking him to become a killer.
 
-"You say your village burned. So did mine. I've seen the same smoke. The same silence. But I didn't need revenge. I needed peace. Just one quiet life with my sister. Your soldiers took that from me today. You ask me to join you — after you took the only thing I had left?"
+"I won't join you," Feris said. His voice cracked.
 
-"You say you burn because of need. I don't see need. I see anger. I see pain. I see men hurting strangers because they were hurt by strangers. My sister and I — we never touched your war. We only tried to live."
+"You say your village burned. So did mine. I've seen the same smoke. The same silence. But I didn't need revenge. I needed peace. Just one quiet life with my sister. Your soldiers took that from me today."
+
+Feris wiped his face with his bound hands. "You say you burn because of need. I don't see need. I see anger. I see pain. I see men hurting strangers because they were hurt by strangers. My sister and I — we never touched your war. We only tried to live."
 
 "If you want the king dead, go to the king. Not to villages. Not to children. Not to people like us."
 
@@ -768,7 +762,7 @@ The leader continued. "The war between the kingdoms is almost over. One more dea
 
 "Then kill him yourself," Feris said.
 
-"I can't. I'm watched. But a child? A child walking toward the king with a stolen bow? No one watches a child."
+"I can't. The King's personal guard watch every known rebel. They know my face. But a child? A child walking toward the king with a stolen bow? No one watches a child."
 
 Feris shook his head. "No."
 
@@ -797,6 +791,8 @@ The arrow flew. It struck the king in the heart.
 At the same moment, eight arrows struck the poor man — the leader of the Acurs — and he fell without a sound.
 
 The king fell from his horse.
+
+The royal guards shouted, rushing to the fallen king, leaving Feris's path completely unguarded.
 
 One of the Acurs — blood on his cheek — ran past Feris. "When I raise my hand," he said, "go to your sister. As fast as you can. Don't look back."
 
