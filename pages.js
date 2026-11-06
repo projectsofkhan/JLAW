@@ -7,7 +7,13 @@ JUST LIKE A WHISPER
 
 Total Episodes: 19
 
-*All characters, places, and events depicted in this series are entirely fictional. Any resemblance to actual history or persons is purely coincidental.*
+Two orphans. 
+One small knife. 
+A monstrous army that took everything.
+
+A quiet, tragic story about a brother who would do anything to protect his sister, and a war that demanded everything in return.
+
+*All characters, places, and events depicted in this series are entirely fictional.*
 `
     },
     {
@@ -61,9 +67,7 @@ But by nightfall, Joie's body began to burn with fever.
 
 Feris stayed awake all night beside her. He talked to her softly. He made her laugh when he could.
 
-Inside, he was breaking. Outside, he smiled — pretending to be strong.
-
-That night, one laughed to hide fear, and one watched the darkness to protect.
+He didn't sleep. He held his father's small knife in his lap, his knuckles white around the handle, listening to the sounds of the forest. Every snap of a twig made him flinch. He was terrified. But when Joie looked at him, he forced a gentle smile. He had to be strong for her. 
 
 Eventually, exhaustion won. They fell asleep.
 
@@ -295,9 +299,7 @@ Feris nodded slowly. They left the boat hidden and continued toward the village.
         title: "Episode 8",
         content: `They reached Piedmont with Daylan by noon. The town felt alive — voices, footsteps, carts, and unfamiliar faces everywhere.
 
-Feris moved through the market, asking shopkeepers for small jobs. Some shook their heads. Still, he didn't stop. He spent the whole afternoon walking from stall to stall, his feet aching, his throat dry from asking. But no one needed a boy.
-
-Before returning to Joie, he bought a simple but beautiful dress and hid it in Daylan's boat.
+Feris moved through the market, asking shopkeepers for small jobs. Some shook their heads. Still, he didn't stop. Before returning to Joie, he bought a simple but beautiful dress and hid it in Daylan's boat.
 
 That night, after eating, Feris said quietly, "Joie… I have something for you."
 
@@ -305,27 +307,23 @@ He brought out the dress. Joie froze for a second — then hugged him tightly, t
 
 She tried it on and stood shyly in front of him. "You look beautiful," Feris said honestly.
 
-The next morning, the food was almost gone. Feris woke early, staring at the ceiling. One lira left in his pocket. It felt heavier than any coin should.
+Morning came quietly. The food was almost gone. Feris woke early, staring at the ceiling. One lira left.
 
-He sat outside for a long time. The forest was quiet. The birds were singing. It felt wrong, somehow, that the world could be so peaceful when they had nothing.
+"I should start wood cutting," he said quietly to himself. "It's a simple beginning… but a beginning."
 
-Finally, he stood up. "I should start wood cutting," he said quietly to himself. "It's a simple beginning… but a beginning."
-
-When he told Joie, she smiled immediately. "I'll be happy if you do that, brother. I can help too."
+Joie smiled immediately. "I'll be happy if you do that, brother. I can help too."
 
 Feris laughed. "You? The girl who struggles with cutting vegetables wants to cut wood?"
 
 Joie crossed her arms. "We'll see how you say no to me."
 
-He shook his head, still smiling. "Sorry, my sister."
+Feris raised his hands. "Sorry, my sister."
 
-After eating, they went to Daylan. Feris found an axe shop and bought a strong axe and a small box — spending the last of his money.
+After eating, they went to Daylan. Feris found an axe shop and bought a strong axe and a small box — spending all the money he had.
 
 At the shore, Daylan helped them. "Push both paddles together. If one is late, the boat will turn. And if anything goes wrong — stop immediately."
 
-Feris gripped the paddles. They felt heavy and awkward in his hands. He looked at Joie. She nodded at him.
-
-He pushed. The boat moved forward. For the first time, Feris wasn't just surviving. He was starting something.
+Feris gripped the paddles — and pushed. The boat moved forward. For the first time, Feris wasn't just surviving. He was starting something.
 `
     },
     {
@@ -347,8 +345,6 @@ Joie held Feris's hand and stepped into the boat. "Brother, can I help you with 
 Feris hesitated. "I'm a little tired. Can you really do it?"
 
 "Yes!" Joie replied happily. She grabbed both paddles and began rowing with effort.
-
-The river was quiet. The sun was warm on their shoulders. For a little while, it felt like they were just two kids on a boat, not two orphans running from a war. Feris closed his eyes, letting the sound of the water wash over him. He hadn't felt this calm in weeks.
 
 After a while, Joie's arms started to shake. "Oh, brother… can you take over now?"
 
@@ -381,11 +377,7 @@ She answered calmly. "Yesterday, the child came and asked for you. He was the on
 
 "Oh, my sister…" Feris whispered, deeply touched.
 
-Feris's work turned out to be harder than he expected. The axe was sharp, but his hands were not used to the weight. By noon, his palms were blistered. By evening, his back ached so badly he could barely stand. But he kept going. He had to.
-
-By nightfall, he had chopped the wood into pieces and carried it back home. He set it down outside the tent and sat on a stone, staring at his hands. They were trembling.
-
-Joie came out and sat beside him. She didn't say anything. She just sat there, close enough to feel her warmth.
+Feris's work turned out to be harder than he expected. Cutting even a small tree took nearly an hour. By nightfall, he had chopped it into pieces and carried it back home.
 
 Later that night, Joie stirred slightly. "Brother… it's night."
 
@@ -563,13 +555,11 @@ And he told his story — a story that was far more tragic than Feris expected. 
 
 The leader looked at Feris. "Will you join us?"
 
-Feris didn't answer right away. His hands were shaking. He was just a boy, tired and hungry, and this man was asking him to become a killer.
+Feris raised his head. "No. I won't join you."
 
-"I won't join you," Feris said. His voice cracked.
+"You say your village burned. So did mine. I've seen the same smoke. The same silence. But I didn't need revenge. I needed peace. Just one quiet life with my sister. Your soldiers took that from me today. You ask me to join you — after you took the only thing I had left?"
 
-"You say your village burned. So did mine. I've seen the same smoke. The same silence. But I didn't need revenge. I needed peace. Just one quiet life with my sister. Your soldiers took that from me today."
-
-Feris wiped his face with his bound hands. "You say you burn because of need. I don't see need. I see anger. I see pain. I see men hurting strangers because they were hurt by strangers. My sister and I — we never touched your war. We only tried to live."
+"You say you burn because of need. I don't see need. I see anger. I see pain. I see men hurting strangers because they were hurt by strangers. My sister and I — we never touched your war. We only tried to live."
 
 "If you want the king dead, go to the king. Not to villages. Not to children. Not to people like us."
 
