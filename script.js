@@ -7,6 +7,7 @@
     const progressFill = document.getElementById('progress-fill');
     const themeToggle = document.getElementById('theme-toggle');
     const themeIcon = themeToggle.querySelector('.theme-icon');
+    const header = document.querySelector('.site-header');
 
     let currentIndex = 0;
 
@@ -21,6 +22,14 @@
         THEMES.forEach(t => document.body.classList.remove(t.name));
         document.body.classList.add(THEMES[i].name);
         themeIcon.textContent = THEMES[i].icon;
+
+        if (header) {
+            if (THEMES[i].name === 'theme-rainbow') {
+                header.style.background = 'transparent';
+            } else {
+                header.style.background = '';
+            }
+        }
     };
 
     const buildDots = () => {
