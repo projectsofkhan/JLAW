@@ -80,3 +80,45 @@
     }
     </script>
 </head>
+<body class="theme-light">
+
+    <header class="site-header" role="banner">
+        <div class="whisper-frame whisper-frame--header">
+            <div class="title-wrap">
+                <h1 class="book-title">Just Like A Whisper</h1>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Cycle between light, rainbow, and dark themes" title="Change theme">
+                <span class="theme-icon" aria-hidden="true">☾</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="whisper-main" role="main">
+        <div class="whisper-frame">
+            <!-- THIS IS WHERE THE STORY GETS INJECTED -->
+            <div id="pages-container" class="pages-container"></div>
+        </div>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Page navigation">
+        <button id="prev-btn" class="nav-btn" aria-label="Previous page" title="Previous page">←</button>
+        <div class="page-indicator" aria-live="polite">
+            <span id="page-current">1</span>
+            <span class="page-divider" aria-hidden="true">/</span>
+            <span id="page-total">22</span>
+        </div>
+        <button id="next-btn" class="nav-btn" aria-label="Next page" title="Next page">→</button>
+        <div class="progress-line" aria-hidden="true">
+            <div id="progress-fill" class="progress-fill"></div>
+        </div>
+    </nav>
+
+    <footer class="site-footer" role="contentinfo">
+        <p>Just Like A Whisper — a light novel. Contact: <a href="mailto:storieswebsite1@gmail.com">storieswebsite1@gmail.com</a></p>
+    </footer>
+
+    <script src="pages.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
