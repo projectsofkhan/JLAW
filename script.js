@@ -11,9 +11,9 @@
     let currentIndex = 0;
 
     const THEMES = [
-        { name: 'theme-light',   icon: '☾' },
-        { name: 'theme-rainbow', icon: '🌈' },
-        { name: 'theme-dark',    icon: '☀' }
+        { name: 'theme-light',   icon: '☾', bg: '#faf7f2' },
+        { name: 'theme-rainbow', icon: '🌈', bg: 'transparent' },
+        { name: 'theme-dark',    icon: '☀', bg: '#161513' }
     ];
     let themeIndex = 0;
 
@@ -21,6 +21,7 @@
         THEMES.forEach(t => document.body.classList.remove(t.name));
         document.body.classList.add(THEMES[i].name);
         themeIcon.textContent = THEMES[i].icon;
+        document.documentElement.style.background = THEMES[i].bg;
     };
 
     const buildDots = () => {
