@@ -8,39 +8,41 @@
     <title>Just Like A Whisper — A Light Novel About Love, War, and Two Children</title>
 
     <meta name="description" content="Just Like A Whisper — a light novel in 19 episodes. Two orphaned siblings, Feris and Joie, survive a war that took everything. A quiet, tragic story of sibling love that refuses to end." />
-    <meta name="keywords" content="light novel, Just Like A Whisper, Feris, Joie, tragedy, war story, siblings, Zeeshan Khan, web novel, free light novel, emotional novel, dark fantasy" />
+    <meta name="keywords" content="light novel, Just Like A Whisper, Feris, Joie, tragedy, war story, siblings, web novel, free light novel, emotional novel, dark fantasy" />
     <meta name="author" content="Anonymous" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow" />
     <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)" />
 
-    <link rel="canonical" href="https://justlikeawhisper.com/" />
+    <link rel="canonical" href="https://justlikeawhisper.vercel.app/" />
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
 
+    <!-- Open Graph / WhatsApp / Facebook -->
     <meta property="og:type" content="book" />
     <meta property="og:title" content="Just Like A Whisper — A Light Novel" />
     <meta property="og:description" content="Two children. One war. A love that refused to end. A quiet, tragic light novel in 19 episodes." />
-    <meta property="og:image" content="jlaw.png" />
+    <meta property="og:image" content="https://justlikeawhisper.vercel.app/jlaw.png" />
     <meta property="og:image:alt" content="Just Like A Whisper — cover banner" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://justlikeawhisper.com/" />
+    <meta property="og:url" content="https://justlikeawhisper.vercel.app/" />
     <meta property="og:site_name" content="Just Like A Whisper" />
     <meta property="og:locale" content="en_US" />
 
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Just Like A Whisper — A Light Novel" />
     <meta name="twitter:description" content="Two children. One war. A love that refused to end. A quiet, tragic light novel in 19 episodes." />
-    <meta name="twitter:image" content="jlaw.png" />
+    <meta name="twitter:image" content="https://justlikeawhisper.vercel.app/jlaw.png" />
     <meta name="twitter:image:alt" content="Just Like A Whisper — cover banner" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="image" href="jlaw.png" />
+    <link rel="preload" as="image" href="https://justlikeawhisper.vercel.app/jlaw.png" />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
@@ -56,8 +58,8 @@
         "numberOfPages": 19,
         "genre": ["Light Novel", "Tragedy", "War Fiction", "Family"],
         "description": "Two orphaned siblings, Feris and Joie, survive a war that took everything. A quiet, tragic story of sibling love that refuses to end.",
-        "image": "https://justlikeawhisper.com/jlaw.png",
-        "url": "https://justlikeawhisper.com/",
+        "image": "https://justlikeawhisper.vercel.app/jlaw.png",
+        "url": "https://justlikeawhisper.vercel.app/",
         "author": {
             "@type": "Person",
             "name": "Anonymous"
@@ -67,7 +69,7 @@
             "name": "Just Like A Whisper",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://justlikeawhisper.com/favicon.ico"
+                "url": "https://justlikeawhisper.vercel.app/favicon.ico"
             }
         },
         "aggregateRating": {
@@ -78,44 +80,3 @@
     }
     </script>
 </head>
-<body class="theme-light">
-
-    <header class="site-header" role="banner">
-        <div class="whisper-frame whisper-frame--header">
-            <div class="title-wrap">
-                <h1 class="book-title">Just Like A Whisper</h1>
-            </div>
-            <button id="theme-toggle" class="theme-toggle" aria-label="Cycle between light, rainbow, and dark themes" title="Change theme">
-                <span class="theme-icon" aria-hidden="true">☾</span>
-            </button>
-        </div>
-    </header>
-
-    <main class="whisper-main" role="main">
-        <div class="whisper-frame">
-            <div id="pages-container" class="pages-container"></div>
-        </div>
-    </main>
-
-    <nav class="bottom-nav" aria-label="Page navigation">
-        <button id="prev-btn" class="nav-btn" aria-label="Previous page" title="Previous page">←</button>
-        <div class="page-indicator" aria-live="polite">
-            <span id="page-current">1</span>
-            <span class="page-divider" aria-hidden="true">/</span>
-            <span id="page-total">22</span>
-        </div>
-        <button id="next-btn" class="nav-btn" aria-label="Next page" title="Next page">→</button>
-        <div class="progress-line" aria-hidden="true">
-            <div id="progress-fill" class="progress-fill"></div>
-        </div>
-    </nav>
-
-    <footer class="site-footer" role="contentinfo">
-        <p>Just Like A Whisper — a light novel. Contact: <a href="mailto:storieswebsite1@gmail.com">storieswebsite1@gmail.com</a></p>
-    </footer>
-
-    <script src="pages.js"></script>
-    <script src="script.js"></script>
-
-</body>
-</html>
