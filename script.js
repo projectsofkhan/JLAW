@@ -30,6 +30,25 @@
         return dots;
     };
 
+    const buildBeginBtn = () => {
+        const btn = document.createElement('button');
+        btn.className = 'begin-btn';
+        btn.type = 'button';
+        btn.setAttribute('aria-label', 'Begin reading the novel');
+        btn.innerHTML = `
+            <span>Begin Reading</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+        `;
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            goNext();
+        });
+        return btn;
+    };
+
     const renderPage = (index) => {
         const page = pages[index];
         if (!page) return;
@@ -56,6 +75,10 @@
             wrapper.appendChild(buildDots());
         }
 
+        if (wrapper.classList.contains('cover-page')) {
+            wrapper.appendChild(buildBeginBtn());
+        }
+
         container.innerHTML = '';
         container.appendChild(wrapper);
 
@@ -69,8 +92,19 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    const goPrev = () => { if (currentIndex > 0) { currentIndex--; renderPage(currentIndex); } };
-    const goNext = () => { if (currentIndex < pages.length - 1) { currentIndex++; renderPage(currentIndex); } };
+    const goPrev = () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            renderPage(currentIndex);
+        }
+    };
+
+    const goNext = () => {
+        if (currentIndex < pages.length - 1) {
+            currentIndex++;
+            renderPage(currentIndex);
+        }
+    };
 
     prevBtn.addEventListener('click', goPrev);
     nextBtn.addEventListener('click', goNext);
@@ -83,6 +117,8 @@
     document.addEventListener('click', (e) => {
         if (e.target.closest('.bottom-nav')) return;
         if (e.target.closest('.theme-toggle')) return;
+        if (e.target.closest('.begin-btn')) return;
+        if (e.target.closest('.site-footer')) return;
 
         const ripple = document.createElement('div');
         ripple.className = 'click-ripple';
