@@ -5,7 +5,7 @@ const pages = [
 
 JUST LIKE A WHISPER
 
-Total Episodes: 19
+Total Episodes: 20
 `
     },
     {
@@ -772,9 +772,11 @@ Joie was crying. But she looked at Feris. "Brother… if it ends the war…"
 
 "Don't," Feris said.
 
-"I'm not asking you to die," Joie said. "I'm asking you to end it."
+"I'm not asking you to die," Joie said. She grabbed his hand, her tears falling fast. "I'm asking you to end it. But you have to promise me. Promise me you'll come back."
 
-Feris closed his eyes. Then he opened them. "I'll do it."
+Feris looked at her. His eyes burned. "I promise."
+
+He turned to the leader. "I'll do it."
 
 That night, they killed a soldier from the other kingdom. They took his bow. The leader showed Feris how to stand. How to aim. "Not the body," the leader said. "The heart. Always the heart."
 
@@ -790,9 +792,9 @@ The arrow flew. It struck the king in the heart.
 
 At the same moment, eight arrows struck the poor man — the leader of the Acurs — and he fell without a sound.
 
-The king fell from his horse.
+The king fell from his horse. The royal guards panicked, rushing to their fallen leader, their formation breaking into chaos.
 
-The royal guards shouted, rushing to the fallen king, leaving Feris's path completely unguarded.
+Through that chaos, the Acurs charged forward, clashing with the guards to create a diversion.
 
 One of the Acurs — blood on his cheek — ran past Feris. "When I raise my hand," he said, "go to your sister. As fast as you can. Don't look back."
 
@@ -865,13 +867,16 @@ Feris's own breath slowed. He didn't cry. He didn't scream. He only held her han
 
 And in the quiet, as the world dimmed around him, he whispered the last thing he would ever say — "I'll find you."
 
-The soldiers lowered their bows. No one spoke. No one cheered. No one moved.
+The soldiers lowered their bows. In the distance, through the smoke and the fighting, they believed the two small figures were already dead. They turned away.
 
 Two children lay on the road, hands joined, faces turned toward each other.
 
 The wind passed over them, softly — just like a whisper.
-
-Behind them, in the distance, a single old man rowed toward the shore. Daylan reached the road, saw the two small figures lying together, and dropped to his knees. He only closed their eyes — hers first, then his — and whispered, "Sleep, children. You are together now. You always were."
+`
+    },
+    {
+        title: "The End",
+        content: `Behind them, in the distance, a single old man rowed toward the shore. Daylan reached the road, saw the two small figures lying together, and dropped to his knees. He only closed their eyes — hers first, then his — and whispered, "Sleep, children. You are together now. You always were."
 
 Far away, the war ended. The king was dead. The Acurs were captured. The Northern Kingdom fell into silence.
 
@@ -883,12 +888,7 @@ Feris. Joie.
 
 Together. Even after this life. Just like a whisper.
 
-THE END
-`
-    },
-    {
-        title: "The End",
-        content: `THANK YOU FOR READING
+THANK YOU FOR READING
 
 JUST LIKE A WHISPER
 
