@@ -18,7 +18,6 @@
     --rainbow: linear-gradient(90deg, var(--r1), var(--r2), var(--r3), var(--r4), var(--r5), var(--r6), var(--r7));
 }
 
-/* ---------- LIGHT ---------- */
 body.theme-light {
     --paper: #faf7f2;
     --ink: #2a2622;
@@ -27,7 +26,6 @@ body.theme-light {
     --line: rgba(42, 38, 34, 0.12);
 }
 
-/* ---------- DARK ---------- */
 body.theme-dark {
     --paper: #161513;
     --ink: #e8e3db;
@@ -36,7 +34,6 @@ body.theme-dark {
     --line: rgba(232, 227, 219, 0.12);
 }
 
-/* ---------- RAINBOW ---------- */
 body.theme-rainbow {
     --paper: #fdfaf5;
     --ink: #2a2622;
@@ -84,7 +81,6 @@ body {
     position: relative;
 }
 
-/* ---------- FRAME — perfect vertical axis ---------- */
 .whisper-frame {
     max-width: 680px;
     margin: 0 auto;
@@ -94,7 +90,6 @@ body {
     flex-direction: column;
     position: relative;
     z-index: 2;
-    text-align: left;
 }
 
 .whisper-header {
@@ -188,9 +183,6 @@ body {
     text-align: left;
 }
 
-/* ============================================================
-   COVER & OUTRO — bare, no cards, no frames
-   ============================================================ */
 .cover-page,
 .outro-page {
     position: relative;
@@ -232,7 +224,6 @@ body {
     margin: 0 auto;
 }
 
-/* Rainbow aura — floating behind text, no card */
 .cover-page::before,
 .outro-page::before {
     content: "";
@@ -258,7 +249,6 @@ body {
     100% { transform: translate3d(10px,-8px,0) rotate(-2deg) scale(0.98); }
 }
 
-/* Floating rainbow dots */
 .cover-page .rainbow-dots,
 .outro-page .rainbow-dots {
     position: absolute;
@@ -299,9 +289,6 @@ body {
     100% { transform: translate3d(-6px,6px,0) scale(0.95); opacity: 0.5; }
 }
 
-/* ============================================================
-   CLICK RIPPLE — minimal, smooth
-   ============================================================ */
 .click-ripple {
     position: fixed;
     width: 90px;
@@ -319,9 +306,6 @@ body {
     100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; }
 }
 
-/* ============================================================
-   BOTTOM NAV
-   ============================================================ */
 .bottom-nav {
     position: fixed;
     left: 50%;
@@ -404,9 +388,6 @@ body {
     100% { background-position: 100% 50%; }
 }
 
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
 @media (min-width: 900px) {
     .whisper-frame { max-width: 720px; padding-top: 88px; }
     .page-title { font-size: 2.05rem; }
