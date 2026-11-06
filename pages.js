@@ -130,21 +130,21 @@ Then they heard a sound. Someone was shouting, "Please don't do that!"
 
 It was the voice of a child, younger than Feris and Joie. Feris took Joie's hand, gripped the knife, and whispered, "Shhh — wait."
 
-The child cried, "You traitors! Give me my family's food!"
+The child cried, "You burglar! Give me my family's food!"
 
-There was only one person standing there. He replied, "Hey, child — even your father doesn't speak to me like that. Who are you?"
+There was only one person standing there. He replied, "Hey, child — your father wouldn't speak to me like that. Who are you?"
 
 Feris said to Joie, "Listen — go to the right side. Throw a big stone with all your strength. When you've thrown it, come back to the child. Okay?"
 
-Joie threw the stone with all her strength. It landed near the robber. Then Feris came in from the side and threw another stone — full power — straight into the man's back. The robber dropped to the ground.
+Joie threw the stone with all her strength. It landed near the burglar. Then Feris came in from the side and threw another stone — full power — straight into the man's back. The burglar dropped to the ground.
 
 Feris said to Joie, "Grab him — bring him to the house. I'll come soon."
 
-The robber replied, "Please don't do that. I have a mother waiting for me. If I don't bring her food, she'll die of starvation. Please."
+The burglar replied, "Please don't do that. I have a mother waiting for me. If I don't bring her food, she'll die of starvation. Please."
 
 Feris was quiet for a moment. Then he said, "I understand your condition. I'll give you some food — but remember this: don't rob anyone's house. Because if you save your mother by robbery, someone else's mother dies."
 
-Feris gave the robber a quarter of the food. Then he turned back and saw Joie and the child watching him, smiling.
+Feris gave the burglar a quarter of the food. Then he turned back and saw Joie and the child watching him, smiling.
 
 Joie said, "Brother, how sweet you are!"
 
@@ -851,7 +851,7 @@ She let out a shaky breath, tears spilling down her cheeks. "Brother? Are we goi
 
 Feris smiled. Blood traced the corner of his mouth. "Do you know, Joie… our life is just like a whisper. It's short. We grew up with happiness, and then the war destroyed us. But whatever happens… I am glad that at this time, I wasn't alone here. I was with my beloved. My beloved sister. Joie… I love you."
 
-She tried to move closer to him. Her arm trembled. "Brother…" she cried softly. "Brother, I too… I love you too. Forever."
+She tried to move closer to him. Her arm trembled. "Brother…" she cried softly, her voice breaking. "Brother, I too… I love you too. Forever."
 
 Her breath was shallow. Her voice was a whisper — just like a whisper. "We… will love each other… even after this life… right?"
 
