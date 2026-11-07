@@ -117,7 +117,7 @@ She reached for his hand. He let her hold it for a moment — then gently pulled
 
 Outside, Feris stood thinking desperately. Then he remembered the house. Their house. If anything survived the fire, it would be hidden somewhere his parents had prepared for emergencies.
 
-He searched every corner carefully — and finally found two pears and a pomegranate hidden in the pantry, wrapped in cloth. His eyes lit up with relief.
+He searched every corner carefully — and finally found a cloth bundle tucked behind a fallen beam. Inside were two pears and a pomegranate, still good. His eyes lit up with relief.
 
 He grabbed a pear and went back inside. "Wake up, sister! Look — I found a pear for you. Do you want to eat?"
 
@@ -258,7 +258,7 @@ Joie tilted her head slightly. "What if we check our old house? Maybe father kep
 
 Feris looked at her, surprised. "You have your mother's eyes," he said softly. "You see things I miss."
 
-After eating, they walked together toward the burned ruins of their old house. Behind a wooden wall, they pushed together and managed to move it aside. Joie slipped into the gap and found an old wooden box, locked with iron.
+After eating, they walked together toward the burned ruins of their old house. Behind a wooden wall, they pushed together and managed to move it aside. Joie slipped into the gap and found an old wooden box — plain, worn, and heavy.
 
 Night had almost fallen. "Run," Feris said, grabbing her hand. "Before predators come."
 
@@ -266,27 +266,21 @@ As they ran, a large white shape appeared in the darkness. Joie whispered, tremb
 
 Feris's whole body shook. He pulled Joie behind him, knife raised, heart slamming against his ribs. Then a soft sound came — a sheep's cry. They both exhaled in relief and ran faster.
 
-Inside the tent, Feris tried to break the box open, but it was reinforced with iron. "Try forcing it with the knife," Joie suggested.
+Inside the tent, Feris tried to break the box open. It wasn't locked — just old and swollen with damp. He forced the lid with his knife, and it gave way with a crack.
 
-Feris wedged the blade into the lock and twisted hard. The lock gave way with a crack. He opened the box slowly.
+He opened the box slowly.
 
-It was empty.
-
-For a moment, there was only silence. Then Joie burst out laughing. "Sorry, brother… I couldn't control it."
-
-Feris stared at the box, disappointed. But then he remembered something. His father once told him, *"Men hide their true wealth where no thief will look."*
-
-Feris flipped the box over. He struck it hard against the stone. Once. Twice. On the third strike, the false bottom cracked open. Small metal objects rolled out. Coins. Old lire — worn, dull, forgotten. And a whetstone.
+Inside lay fruit — a few pears and a pomegranate, wrapped in cloth — and a small handful of old lire, worn and dull. Beside them, a whetstone.
 
 His breath caught. "Joie!"
 
-She ran outside. Feris grabbed her hands. "Look! There was a hidden layer — coins, and a whetstone to sharpen the knife!"
+She ran inside. Feris grabbed her hands. "Look! Fruit — and coins, and a whetstone to sharpen the knife!"
 
 Joie's eyes filled with tears — not of sadness, but of relief. "Brother… Father left this for us."
 
 Feris nodded. "He must have been saving them. For a time like this."
 
-Later that day, Feris went down to the riverbank. He saw an old sailor — Daylan — mooring his boat. Feris approached him politely. "Hello, sir. How much would it cost to sail to the nearest village?"
+They ate one of the pears together, saving the rest. Later that day, Feris went down to the riverbank. He saw an old sailor — Daylan — mooring his boat. Feris approached him politely. "Hello, sir. How much would it cost to sail to the nearest village?"
 
 "One lira per person," the old man replied.
 
