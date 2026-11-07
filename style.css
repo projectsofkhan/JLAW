@@ -1,13 +1,9 @@
-/* ==========================================================
-   ROOT TOKENS
-   ========================================================== */
 :root {
-    --paper: #faf7f2;
+    --paper: #ffffff;
+    --paper-cover: #faf7f2;
     --ink: #2a2622;
     --ink-soft: #6b645c;
     --accent: #a68a64;
-    --btn-color: #b8965a;
-    --btn-color-hover: #d4a94f;
     --line: rgba(42, 38, 34, 0.10);
     --line-strong: rgba(42, 38, 34, 0.18);
 
@@ -28,90 +24,66 @@
     --selection-fg: #2a2622;
 }
 
-/* ---------- LIGHT ---------- */
 body.theme-light {
-    --paper: #faf7f2;
+    --paper: #ffffff;
+    --paper-cover: #faf7f2;
     --ink: #2a2622;
     --ink-soft: #6b645c;
     --accent: #a68a64;
-    --btn-color: #b8965a;
-    --btn-color-hover: #d4a94f;
     --line: rgba(42, 38, 34, 0.10);
     --line-strong: rgba(42, 38, 34, 0.18);
     --selection-bg: rgba(255, 210, 130, 0.45);
     --selection-fg: #2a2622;
 }
 
-/* ---------- RAINBOW ---------- */
-body.theme-rainbow {
-    --paper: transparent;
-    --ink: #2a2622;
-    --ink-soft: #6b645c;
-    --accent: #a68a64;
-    --btn-color: #c96a8c;
-    --btn-color-hover: #a84d70;
-    --line: rgba(42, 38, 34, 0.10);
-    --line-strong: rgba(42, 38, 34, 0.18);
-    --selection-bg: rgba(255, 195, 215, 0.45);
-    --selection-fg: #2a2622;
-}
-
-/* ---------- DARK ---------- */
 body.theme-dark {
     --paper: #161513;
+    --paper-cover: #1a1816;
     --ink: #e8e3db;
     --ink-soft: #a39c92;
     --accent: #c9a878;
-    --btn-color: #e0c088;
-    --btn-color-hover: #f0d09a;
     --line: rgba(232, 227, 219, 0.10);
     --line-strong: rgba(232, 227, 219, 0.20);
     --selection-bg: rgba(201, 168, 120, 0.35);
     --selection-fg: #f6efe4;
 }
 
-/* ==========================================================
-   FULL-PAGE RAINBOW — attached to HTML so it never gets
-   painted over by an opaque body background
-   ========================================================== */
-html { background: #faf7f2; }
-html.theme-rainbow-page,
-body.theme-rainbow ~ * {}
-
 body.theme-rainbow {
-    background: transparent;
+    --paper: #fdfaf5;
+    --paper-cover: #fdfaf5;
+    --ink: #2a2622;
+    --ink-soft: #6b645c;
+    --accent: #a68a64;
+    --line: rgba(42, 38, 34, 0.10);
+    --line-strong: rgba(42, 38, 34, 0.18);
+    --selection-bg: rgba(255, 195, 215, 0.45);
+    --selection-fg: #2a2622;
 }
 
-/* The rainbow sky — full viewport, on every page in rainbow theme */
 body.theme-rainbow::before {
     content: "";
     position: fixed;
     inset: 0;
-    width: 100vw;
-    height: 100vh;
     z-index: 0;
     pointer-events: none;
     background:
-        radial-gradient(circle at 10% 5%, rgba(255,122,122,0.26), transparent 40%),
-        radial-gradient(circle at 90% 8%, rgba(255,179,107,0.24), transparent 38%),
-        radial-gradient(circle at 95% 78%, rgba(255,226,122,0.24), transparent 40%),
-        radial-gradient(circle at 8% 92%, rgba(168,224,184,0.24), transparent 42%),
-        radial-gradient(circle at 50% 100%, rgba(142,199,255,0.22), transparent 40%),
-        radial-gradient(circle at 55% 45%, rgba(179,179,255,0.20), transparent 44%),
-        radial-gradient(circle at 78% 40%, rgba(217,168,255,0.20), transparent 42%);
-    filter: blur(46px);
+        radial-gradient(circle at 10% 5%, rgba(255,122,122,0.18), transparent 38%),
+        radial-gradient(circle at 90% 8%, rgba(255,179,107,0.16), transparent 36%),
+        radial-gradient(circle at 95% 75%, rgba(255,226,122,0.16), transparent 38%),
+        radial-gradient(circle at 8% 90%, rgba(168,224,184,0.16), transparent 40%),
+        radial-gradient(circle at 45% 100%, rgba(142,199,255,0.14), transparent 38%),
+        radial-gradient(circle at 55% 45%, rgba(179,179,255,0.13), transparent 42%),
+        radial-gradient(circle at 78% 40%, rgba(217,168,255,0.13), transparent 40%);
+    filter: blur(40px);
     animation: rainbowBreath 30s ease-in-out infinite alternate;
 }
 
 @keyframes rainbowBreath {
-    0%   { transform: translate3d(0,0,0) scale(1); opacity: 0.95; }
+    0%   { transform: translate3d(0,0,0) scale(1); opacity: 0.9; }
     50%  { transform: translate3d(-10px,8px,0) scale(1.03); opacity: 1; }
-    100% { transform: translate3d(10px,-8px,0) scale(0.98); opacity: 0.95; }
+    100% { transform: translate3d(10px,-8px,0) scale(0.98); opacity: 0.9; }
 }
 
-/* ==========================================================
-   RESET
-   ========================================================== */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html {
     min-height: 100%;
@@ -144,9 +116,6 @@ button:focus-visible, a:focus-visible {
     color: var(--selection-fg);
 }
 
-/* ==========================================================
-   BODY
-   ========================================================== */
 body {
     background: var(--paper);
     color: var(--ink);
@@ -160,9 +129,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* ==========================================================
-   SITE HEADER — transparent, no card
-   ========================================================== */
 .site-header {
     position: relative;
     z-index: 10;
@@ -227,9 +193,6 @@ body {
 
 .theme-icon { display: inline-block; line-height: 1; }
 
-/* ==========================================================
-   MAIN
-   ========================================================== */
 .whisper-main { flex: 1; }
 
 .page {
@@ -282,9 +245,6 @@ body {
     margin: 0 auto;
 }
 
-/* ==========================================================
-   COVER & OUTRO — full-viewport rainbow behind them, no card
-   ========================================================== */
 .cover-page,
 .outro-page {
     position: relative;
@@ -293,56 +253,6 @@ body {
     isolation: isolate;
 }
 
-/* FULL-VIEWPORT rainbow — fixed layer, fills entire screen */
-.cover-page::before,
-.outro-page::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    pointer-events: none;
-    background:
-        radial-gradient(circle at 12% 20%, rgba(255,122,122,0.22), transparent 38%),
-        radial-gradient(circle at 82% 16%, rgba(255,179,107,0.20), transparent 36%),
-        radial-gradient(circle at 90% 66%, rgba(255,226,122,0.20), transparent 38%),
-        radial-gradient(circle at 18% 84%, rgba(168,224,184,0.20), transparent 40%),
-        radial-gradient(circle at 60% 96%, rgba(142,199,255,0.18), transparent 38%),
-        radial-gradient(circle at 42% 48%, rgba(179,179,255,0.16), transparent 42%),
-        radial-gradient(circle at 70% 40%, rgba(217,168,255,0.16), transparent 40%);
-    filter: blur(48px);
-    animation: auraDrift 44s ease-in-out infinite alternate;
-}
-
-@keyframes auraDrift {
-    0%   { transform: translate3d(0,0,0) scale(1); }
-    50%  { transform: translate3d(-10px,10px,0) scale(1.03); }
-    100% { transform: translate3d(10px,-10px,0) scale(0.98); }
-}
-
-/* In rainbow theme, the fixed body rainbow already covers everything,
-   so we hide the duplicate aura on cover/outro */
-body.theme-rainbow .cover-page::before,
-body.theme-rainbow .outro-page::before {
-    display: none;
-}
-
-/* In dark theme, muted full-viewport rainbow for cover/outro */
-body.theme-dark .cover-page::before,
-body.theme-dark .outro-page::before {
-    background:
-        radial-gradient(circle at 12% 20%, rgba(255,122,122,0.14), transparent 40%),
-        radial-gradient(circle at 82% 16%, rgba(255,179,107,0.13), transparent 38%),
-        radial-gradient(circle at 90% 66%, rgba(255,226,122,0.13), transparent 40%),
-        radial-gradient(circle at 18% 84%, rgba(168,224,184,0.13), transparent 42%),
-        radial-gradient(circle at 60% 96%, rgba(142,199,255,0.12), transparent 40%),
-        radial-gradient(circle at 42% 48%, rgba(179,179,255,0.11), transparent 44%),
-        radial-gradient(circle at 70% 40%, rgba(217,168,255,0.11), transparent 42%);
-    filter: blur(52px);
-}
-
-/* Titles + content on cover/outro */
 .cover-page .page-title,
 .outro-page .page-title {
     font-size: clamp(1.7rem, 3vw + 0.8rem, 2.4rem);
@@ -377,7 +287,31 @@ body.theme-dark .outro-page::before {
     max-width: 46ch;
 }
 
-/* Rainbow dots */
+.cover-page::before,
+.outro-page::before {
+    content: "";
+    position: absolute;
+    inset: -20%;
+    z-index: 1;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at 14% 22%, rgba(255,122,122,0.26), transparent 32%),
+        radial-gradient(circle at 80% 18%, rgba(255,179,107,0.24), transparent 30%),
+        radial-gradient(circle at 88% 62%, rgba(255,226,122,0.24), transparent 32%),
+        radial-gradient(circle at 20% 82%, rgba(168,224,184,0.24), transparent 34%),
+        radial-gradient(circle at 55% 95%, rgba(142,199,255,0.22), transparent 32%),
+        radial-gradient(circle at 40% 48%, rgba(179,179,255,0.20), transparent 36%),
+        radial-gradient(circle at 68% 38%, rgba(217,168,255,0.20), transparent 34%);
+    filter: blur(28px);
+    animation: auraDrift 44s ease-in-out infinite alternate;
+}
+
+@keyframes auraDrift {
+    0%   { transform: translate3d(0,0,0) rotate(0deg) scale(1); }
+    50%  { transform: translate3d(-8px,8px,0) rotate(2deg) scale(1.04); }
+    100% { transform: translate3d(10px,-8px,0) rotate(-2deg) scale(0.98); }
+}
+
 .cover-page .rainbow-dots,
 .outro-page .rainbow-dots {
     position: absolute;
@@ -393,7 +327,7 @@ body.theme-dark .outro-page::before {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    opacity: 0.6;
+    opacity: 0.55;
     animation: dotFloat 22s ease-in-out infinite;
 }
 
@@ -413,47 +347,40 @@ body.theme-dark .outro-page::before {
 .outro-page .rainbow-dots span:nth-child(7) { left: 50%; top: 88%; background: var(--r7); animation-delay: -18s; }
 
 @keyframes dotFloat {
-    0%   { transform: translate3d(0,0,0) scale(1); opacity: 0.5; }
-    50%  { transform: translate3d(6px,-10px,0) scale(1.15); opacity: 0.8; }
-    100% { transform: translate3d(-6px,6px,0) scale(0.95); opacity: 0.55; }
+    0%   { transform: translate3d(0,0,0) scale(1); opacity: 0.45; }
+    50%  { transform: translate3d(6px,-10px,0) scale(1.15); opacity: 0.75; }
+    100% { transform: translate3d(-6px,6px,0) scale(0.95); opacity: 0.5; }
 }
 
-/* ==========================================================
-   BEGIN READING
-   ========================================================== */
 .begin-btn {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    margin: 64px auto 0;
-    padding: 13px 28px;
+    margin: 36px auto 0;
+    padding: 12px 26px;
     background: transparent;
-    border: 1px solid var(--btn-color);
+    border: 1px solid var(--line-strong);
     border-radius: 999px;
-    color: var(--btn-color);
+    color: var(--ink);
     font-family: var(--font-serif);
     font-size: 1rem;
     font-style: italic;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     cursor: pointer;
-    transition: all 0.5s cubic-bezier(0.2, 0.6, 0.25, 1);
+    transition: all 0.4s cubic-bezier(0.2, 0.6, 0.25, 1);
     position: relative;
     z-index: 4;
     -webkit-tap-highlight-color: transparent;
 }
 
 .begin-btn:hover {
-    border-color: var(--btn-color-hover);
-    color: var(--btn-color-hover);
+    border-color: var(--accent);
+    color: var(--accent);
     gap: 14px;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 24px rgba(180, 150, 90, 0.20);
+    transform: translateY(-1px);
 }
 
-.begin-btn:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 8px rgba(180, 150, 90, 0.15);
-}
+.begin-btn:active { transform: translateY(0); }
 
 .begin-btn svg {
     width: 14px;
@@ -461,13 +388,8 @@ body.theme-dark .outro-page::before {
     transition: transform 0.4s ease;
 }
 
-.begin-btn:hover svg {
-    transform: translateX(4px);
-}
+.begin-btn:hover svg { transform: translateX(3px); }
 
-/* ==========================================================
-   CLICK RIPPLE
-   ========================================================== */
 .click-ripple {
     position: fixed;
     width: 90px;
@@ -485,9 +407,6 @@ body.theme-dark .outro-page::before {
     100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; }
 }
 
-/* ==========================================================
-   BOTTOM NAV
-   ========================================================== */
 .bottom-nav {
     position: fixed;
     left: 50%;
@@ -575,9 +494,6 @@ body.theme-rainbow .bottom-nav {
     100% { background-position: 100% 50%; }
 }
 
-/* ==========================================================
-   SITE FOOTER
-   ========================================================== */
 .site-footer {
     text-align: center;
     padding: 40px 18px 110px;
@@ -591,20 +507,13 @@ body.theme-rainbow .bottom-nav {
 }
 
 .site-footer a {
-    color: var(--btn-color);
+    color: var(--accent);
     text-decoration: none;
-    transition: opacity 0.3s ease, color 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
-.site-footer a:hover {
-    opacity: 0.9;
-    color: var(--btn-color-hover);
-    text-decoration: underline;
-}
+.site-footer a:hover { opacity: 0.8; text-decoration: underline; }
 
-/* ==========================================================
-   MEDIA QUERIES
-   ========================================================== */
 @media (max-width: 480px) {
     .whisper-frame { padding: 28px 16px 130px; }
     .whisper-frame--header { padding: 16px; }
@@ -616,10 +525,10 @@ body.theme-rainbow .bottom-nav {
     .cover-page .page-content,
     .outro-page .page-content { font-size: 0.85rem; line-height: 2; max-width: 100%; }
     .cover-page,
-    .outro-page { padding: 32px 0; }
+    .outro-page { padding: 20px 0; }
     .cover-page::before,
-    .outro-page::before { filter: blur(32px); }
-    .begin-btn { font-size: 0.9rem; padding: 11px 22px; margin-top: 44px; }
+    .outro-page::before { inset: -15%; filter: blur(22px); }
+    .begin-btn { font-size: 0.9rem; padding: 10px 22px; margin-top: 28px; }
     .bottom-nav { padding: 6px 12px; gap: 8px; bottom: 10px; }
     .nav-btn { width: 30px; height: 30px; font-size: 0.85rem; }
     .page-indicator { min-width: 40px; font-size: 0.66rem; }
@@ -629,16 +538,18 @@ body.theme-rainbow .bottom-nav {
 
 @media (min-width: 481px) and (max-width: 768px) {
     .whisper-frame { padding: 36px 22px 140px; }
-    .whisper-frame--header { padding: 20px 22px; }
+    .whisper-frame--header { padding: 16px 22px; }
     .page-title { font-size: 1.6rem; }
     .cover-page .page-title,
     .outro-page .page-title { font-size: 1.9rem; }
-    .begin-btn { margin-top: 52px; }
+    .cover-page::before,
+    .outro-page::before { inset: -18%; }
+    .begin-btn { margin-top: 36px; }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .whisper-frame { max-width: 680px; padding: 48px 28px 150px; }
-    .whisper-frame--header { padding: 22px 28px; }
+    .whisper-frame--header { padding: 18px 28px; }
     .page-content { font-size: 1.06rem; }
     .cover-page .page-title,
     .outro-page .page-title { font-size: 2.1rem; }
@@ -646,14 +557,14 @@ body.theme-rainbow .bottom-nav {
 
 @media (min-width: 1025px) and (max-width: 1600px) {
     .whisper-frame { max-width: 720px; padding: 64px 32px 170px; }
-    .whisper-frame--header { padding: 24px 32px; }
+    .whisper-frame--header { padding: 20px 32px; }
     .page-title { font-size: 2rem; }
     .page-content { font-size: 1.08rem; }
 }
 
 @media (min-width: 1601px) {
     .whisper-frame { max-width: 780px; padding: 80px 40px 180px; }
-    .whisper-frame--header { padding: 26px 40px; }
+    .whisper-frame--header { padding: 22px 40px; }
     .page-title { font-size: 2.15rem; }
     .page-content { font-size: 1.12rem; }
     .cover-page .page-title,
