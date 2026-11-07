@@ -5,18 +5,24 @@ const pages = [
 
 JUST LIKE A WHISPER
 
-Total Episodes: 20
+Total Episodes: 19
+
+---
+
+*A story of two children, a war without end, and a bond that even death could not break.*
 `
     },
     {
         title: "Prologue",
         content: `One night, the Northern Kingdom's army burned an entire village to the ground.
 
-They say it is only a rumor, but the people whisper that the leader of the Northern Kingdom was once a rich and great man. But one night, his competitors and other businessmen burned down all of his properties and his home. That night turned him into a devil. And now, he wants to burn everything else, just like they did to him. I don't know if the rumor is true or false, but that is what the people say.
+They say it is only a rumor, but the people whisper that the leader of the Northern Kingdom was not always a tyrant. Long ago, before the war, he was a wealthy merchant. He had a wife, a daughter, and a home by the river. But one night, his rivals burned his estate to the ground. His family died in the fire.
+
+The man who survived that night was not the same man who had built the estate. Something inside him broke. The North was always a cold, harsh land, poor in food but rich in iron. The South was fertile, wealthy, and complacent. The South had gold, grain, and endless summer. The North had iron, frost, and a King who promised them the South's wealth if they bled for it. He convinced his starving people that the South was the cause of all their suffering. He stopped believing in peace. He stopped believing in mercy. He only believed in fire—because fire was the only thing that had ever been honest with him. And now, he wants to burn everything else, just like they did to him. He is a paranoid man, convinced that every village hides rebels, every smile hides a knife. I don't know if the rumor is true or false, but that is what the people say.
 
 And on this night, that monstrous army reached the children's village.
 
-Two children — Feris and Joie — were not in the village that night. They had been sent to their uncle's house, a short walk away.
+Two children — Feris and Joie — were not in the village that night. They had been sent to their uncle's house, a short walk away. Feris was fifteen. Joie was ten. They had spent the evening helping their uncle mend fishing nets, laughing at his terrible jokes, and eating warm bread their aunt had baked. Feris had complained about the long walk home. Joie had fallen asleep against his shoulder.
 
 When they returned the next morning, there was nothing left of their home.
 
@@ -30,7 +36,7 @@ Terrified and alone, they ran back to their uncle's house.
 
 But the war had already reached it.
 
-Their uncle tried to protect them. He pressed a few tools into Feris's hands, pointed toward the deep forest, and told them to run — and not to look back.
+Their uncle tried to protect them. He pressed a few tools into Feris's hands — matches, a flint, a small pouch of dried food — pointed toward the deep forest, and told them to run — and not to look back.
 
 Feris and Joie obeyed.
 
@@ -42,14 +48,16 @@ And in the depths of the forest... their real story begins.
 `
     },
     {
-        title: "Episode 1",
-        content: `They walked deep into the forest until they found an old, abandoned tent.
+        title: "Episode 1: The Tent",
+        content: `*The Tent*
+
+They walked deep into the forest until they found an old, abandoned tent.
 
 No one was inside. It was cold. It was quiet.
 
 What they did not know was that the man who had once owned this tent had been part of the massacre that destroyed their village.
 
-They waited, hoping someone would return. But as the hours passed, winter crept in. The cold grew sharper.
+They waited, hoping someone would return. But as the hours passed, winter crept in. The wind cut through their thin clothes like a blade. The cold grew sharper.
 
 With nowhere else to go, they entered the tent.
 
@@ -59,29 +67,47 @@ But by nightfall, Joie's body began to burn with fever.
 
 Feris stayed awake all night beside her. He talked to her softly. He made her laugh when he could.
 
-He didn't sleep. He held his father's small knife in his lap, his knuckles white around the handle, listening to the sounds of the forest. Every snap of a twig made him flinch. He was terrified. But when Joie looked at him, he forced a gentle smile. He had to be strong for her. 
+He didn't sleep. He held his father's small knife in his lap, his knuckles white around the handle, listening to the sounds of the forest. Every snap of a twig made him flinch. He was terrified. But when Joie looked at him, he forced a gentle smile. He had to be strong for her.
 
 Eventually, exhaustion won. They fell asleep.
 
 Morning came.
 
-Feris woke first. He cleaned the tent, explored the nearby area, and built a small cooking place out of soil and stones — simple, but safe.
+Feris cleaned the tent, explored the nearby area, and built a small cooking place out of soil and stones — simple, but safe.
 
 When everything was ready, Joie woke up. She walked toward him slowly. She didn't touch him. She just looked at him — and he understood everything she couldn't say.
 
 "Brother… I'm hungry," she said softly.
+
+And in that single word — *brother* — Feris heard everything she was too weak to say. *I'm scared. My body hurts. Don't leave me.*
+
+He nodded, reached over, and smoothed her hair the way their mother used to. "I know, Joie. I'll take care of it."
+
+For a moment, Joie closed her eyes. When she opened them again, there was something steadier in them — trust.
+
+Outside the tent, Feris stood and looked around. *Shelter. Food. Fire. Safety.* Four things they needed. Four things he had to provide.
+
+He was fifteen years old.
+
+He took a deep breath, and began.
 `
     },
     {
-        title: "Episode 2",
-        content: `Feris nodded softly.
+        title: "Episode 2: The Pear",
+        content: `*The Pear*
+
+Feris nodded softly.
 "Okay, Joie."
 
 He stepped outside to look for food. After some time, Joie suddenly called out, "Brother, come here fast!"
 
-Feris rushed back inside. Joie had reheated the food from the previous night. They sat apart, eating quietly. Soon after, Joie's fever started rising again. Feeling weak, she lay down to rest.
+Feris rushed back inside, heart pounding. Joie had reheated the food from the previous night. She was trying to smile, but her hands were trembling. They sat apart, eating quietly. Soon after, Joie's fever started rising again. Feeling weak, she lay down to rest.
 
-Feris understood that food was becoming a serious problem. Before leaving, he said gently, "Joie, I'm going out to arrange food. I'll be back soon."
+Feris pressed his palm to her forehead. Too warm. Much too warm.
+
+Food. He needed food. Real food. Something that would give her strength.
+
+Before leaving, he said gently, "Joie, I'm going out to arrange food. I'll be back soon."
 
 She reached for his hand. He let her hold it for a moment — then gently pulled away.
 
@@ -89,7 +115,9 @@ She reached for his hand. He let her hold it for a moment — then gently pulled
 
 "I'll be just outside. You can call me anytime, okay?" Feris replied, trying to sound calm.
 
-Outside, Feris stood thinking desperately. Then he remembered the house. He searched every corner carefully — and finally found two pears and a pomegranate hidden in the pantry. His eyes lit up with relief.
+Outside, Feris stood thinking desperately. Then he remembered the house. Their house. If anything survived the fire, it would be hidden somewhere his parents had prepared for emergencies.
+
+He searched every corner carefully — and finally found two pears and a pomegranate hidden in the pantry, wrapped in cloth. His eyes lit up with relief.
 
 He grabbed a pear and went back inside. "Wake up, sister! Look — I found a pear for you. Do you want to eat?"
 
@@ -101,20 +129,32 @@ Her fever was getting worse. Feris brought firewood inside and used the matches 
 
 "I don't have enough energy…" Joie cried weakly.
 
-Before she could finish, Feris lifted her gently in his arms. "Hey — come with me." He laid her carefully beside the fire.
+Before she could finish, Feris lifted her gently in his arms. She was lighter than she should have been — the weight of her fright, the weight of what they'd lost. "Hey — come with me." He laid her carefully beside the fire.
 
 "Oh… thank you very much, brother," Joie whispered.
 
-Later, Feris cut the fruit and brought it to her. "It's 7:20, sister. Please wake up and eat."
+Later, Feris cut the fruit and brought it to her. "The sun is rising, sister. Please wake up and eat."
 
-"For my sake?" Feris said softly.
+Joie opened her eyes slowly. "For my sake?" she whispered.
+
+Feris nodded. "For your sake."
 
 She sat up slowly. She held his gaze — and that was enough. They ate together in silence, and soon drifted into sleep beside the fire.
+
+That night, Feris dreamt of their mother. She was humming while she cooked, her back to him, the firelight turning her hair gold.
+
+"Mother?" he called.
+
+She didn't turn. She only said, "Take care of her, Feris."
+
+When he woke, his cheeks were wet. He wiped them quickly before Joie could see.
 `
     },
     {
-        title: "Episode 3",
-        content: `Feris woke up early again. He picked up the small knife his father had left behind and stepped outside to practice with it. He thought of Joie. He thought of his own life. He had to protect them both.
+        title: "Episode 3: The Child",
+        content: `*The Child*
+
+Feris woke up early. He picked up the small knife his father had left behind and stepped outside to practice with it. He thought of Joie. He thought of his own life. He had to protect them both.
 
 After some time, he came back inside. Joie was standing there, looking better. She hugged him. "Thank you, brother."
 
@@ -122,38 +162,42 @@ After that, Joie said, "Brother, have you prepared something to eat? I'm a bit h
 
 Feris replied, "Not yet, sister — but soon."
 
-Then they heard a sound. Someone was shouting, "Please don't do that!"
+Suddenly, they heard a scream from outside. A young boy's voice. "Help! Someone help me!"
 
-It was the voice of a child, younger than Feris and Joie. Feris took Joie's hand, gripped the knife, and whispered, "Shhh — wait."
+Feris grabbed his knife and rushed out. A man was holding a sack of food, and a small child was clinging to his leg, crying. The man kicked the child away and ran.
 
-The child cried, "You burglar! Give me my family's food!"
+Feris didn't think. He chased the man. The man was faster, but he tripped over a root. Feris caught up and pointed the knife at him.
 
-There was only one person standing there. He replied, "Hey, child — your father wouldn't speak to me like that. Who are you?"
+The man dropped the sack. "Please don't kill me! I have a mother waiting for me! If I don't bring her food, she'll die of starvation. Please!"
 
-Feris said to Joie, "Listen — go to the right side. Throw a big stone with all your strength. When you've thrown it, come back to the child. Okay?"
+Feris was breathing hard. "You stole from a child?"
 
-Joie threw the stone with all her strength. It landed near the burglar. Then Feris came in from the side and threw another stone — full power — straight into the man's back. The burglar dropped to the ground.
+"I had no choice," the man cried. "The war took everything."
 
-Feris said to Joie, "Grab him — bring him to the house. I'll come soon."
+Feris lowered the knife. "Take a quarter of it. But remember this: don't rob anyone's house. Because if you save your mother by robbery, someone else's mother dies."
 
-The burglar replied, "Please don't do that. I have a mother waiting for me. If I don't bring her food, she'll die of starvation. Please."
+The man nodded, grabbed a small portion of the food, and ran away.
 
-Feris was quiet for a moment. Then he said, "I understand your condition. I'll give you some food — but remember this: don't rob anyone's house. Because if you save your mother by robbery, someone else's mother dies."
+Feris picked up the sack and walked back. The child ran to him. "Thank you! Thank you! My family has been starving."
 
-Feris gave the burglar a quarter of the food. Then he turned back and saw Joie and the child watching him, smiling.
+Feris gave the child half of the food. The child hugged him and ran home.
 
-Joie said, "Brother, how sweet you are!"
+Joie was watching from the tent entrance. She was smiling. "Brother, how sweet you are!"
 
-And the child said, "Thank you very much. But why didn't you kill him?"
+Feris shook his head. "I'm not sweet. I'm just… trying to be the person our father would have wanted."
 
-Feris said, "His mother was dying of starvation. That's why he did all this." Then he looked at the child and said, "Now — you can give me your home's address."
+Joie's smile softened. She took his hand and held it — not to be led, but to lead. "Then I'll try too. To be the person Mother would have wanted."
+
+For the first time since the fire, something in Feris's chest loosened. They weren't just surviving. They were becoming something.
 
 And they moved forward.
 `
     },
     {
-        title: "Episode 4",
-        content: `They finally reached the child's home. The child ran ahead and pulled both Feris and Joie inside.
+        title: "Episode 4: The Stranger",
+        content: `*The Stranger*
+
+They finally reached the child's home. The child ran ahead and pulled both Feris and Joie inside.
 
 The child's father looked at them with relief. "Oh, thank you so much! You saved us, children. We have enough food now to survive."
 
@@ -164,6 +208,10 @@ The father laughed. "Yes, he's always impulsive. He saw the food and ran without
 As they were leaving, the child's mother called out and handed them the food they had saved. "This belongs to you," she said warmly.
 
 Feris accepted it gratefully. "Thank you very much, ma'am."
+
+The woman paused, then touched Feris's face gently — the way a mother would. "You have old eyes for such a young face," she said quietly. "Whatever you've lost… you're not alone. Not tonight."
+
+Feris couldn't speak. He only nodded, throat tight.
 
 As they walked back home, Joie giggled. "Brother — I know you too well. You grabbed the food immediately because you didn't want to take any risks. That's why you acted so fast!"
 
@@ -178,11 +226,19 @@ Feris looked at her — not with touch, but with a steady gaze that said everyth
 Joie nodded slowly. "Yes… as you wish," she said sadly.
 
 After they finished cleaning, Joie started her chores while Feris stepped outside to practice with the knife. The sun rose higher, and the forest around them seemed calm — but both knew the war was still far from over.
+
+That evening, Feris carved a small mark into the tent pole — a single notch. A reminder. *Day one of keeping her safe.*
+
+He would add a notch every night. He didn't know how many notches there would be. He didn't want to think about it.
+
+He just wanted Joie to be there to see the next one.
 `
     },
     {
-        title: "Episode 5",
-        content: `Feris woke up early and stepped outside with the small knife. The blade felt heavier than before — not in weight, but in meaning. It had been his father's.
+        title: "Episode 5: The Box",
+        content: `*The Box*
+
+Feris woke up and stepped outside with the small knife. The blade felt heavier than before — not in weight, but in meaning. It had been his father's.
 
 As he practiced swinging it, the knife slipped and cut a thin line across his thumb. Blood beaded. Feris didn't flinch. He only stared at the red for a moment — then wrapped his hand with a strip of cloth and kept practicing.
 
@@ -200,7 +256,7 @@ Joie came closer and sat beside him. "What happened, brother?"
 
 Joie tilted her head slightly. "What if we check our old house? Maybe father kept something there."
 
-Feris looked at her, surprised — then smiled. "Mashallah… you're right, Joie."
+Feris looked at her, surprised. "You have your mother's eyes," he said softly. "You see things I miss."
 
 After eating, they walked together toward the burned ruins of their old house. Behind a wooden wall, they pushed together and managed to move it aside. Joie slipped into the gap and found an old wooden box, locked with iron.
 
@@ -208,7 +264,7 @@ Night had almost fallen. "Run," Feris said, grabbing her hand. "Before predators
 
 As they ran, a large white shape appeared in the darkness. Joie whispered, trembling, "Brother… is that a wolf?"
 
-Feris's whole body shook. Then a soft sound came — a sheep's cry. They both exhaled in relief and ran faster.
+Feris's whole body shook. He pulled Joie behind him, knife raised, heart slamming against his ribs. Then a soft sound came — a sheep's cry. They both exhaled in relief and ran faster.
 
 Inside the tent, Feris tried to break the box open, but it was reinforced with iron. "Try forcing it with the knife," Joie suggested.
 
@@ -218,32 +274,23 @@ It was empty.
 
 For a moment, there was only silence. Then Joie burst out laughing. "Sorry, brother… I couldn't control it."
 
-Feris stared at the box, disappointed. Then he smiled faintly. They put the box aside, ate quietly, and lay down to sleep — tired, safe for the night, and together.
-`
-    },
-    {
-        title: "Episode 6",
-        content: `Feris woke up with frustration burning inside him. He dragged the wooden box outside, placed it on a high stone, and picked up the knife. Without thinking, he started striking the box again and again.
+Feris stared at the box, disappointed. But then he remembered something. His father once told him, *"Men hide their true wealth where no thief will look."*
 
-On the third heavy hit, the box slipped and crashed onto the ground. Crack. The lid opened slightly. Small metal objects rolled out and scattered on the soil.
+Feris flipped the box over. He struck it hard against the stone. Once. Twice. On the third strike, the false bottom cracked open. Small metal objects rolled out. Coins. Old lire — worn, dull, forgotten. And a whetstone.
 
-Feris froze. He dropped to his knees and picked one up. A coin. Old lire — worn, dull, forgotten.
+His breath caught. "Joie!"
 
-Confused, he turned the box upside down. Inside, there was a hidden layer — a false bottom. Beneath it lay a small pouch of coins and a whetstone.
+She ran outside. Feris grabbed her hands. "Look! There was a hidden layer — coins, and a whetstone to sharpen the knife!"
 
-His breath caught. "Joie!" he shouted.
+Joie's eyes filled with tears — not of sadness, but of relief. "Brother… Father left this for us."
 
-She ran outside, startled. Feris grabbed her hands. "Look! There was a hidden layer — coins, and a whetstone to sharpen the knife!"
+Feris nodded. "He must have been saving them. For a time like this."
 
-Joie smiled, her eyes shining.
-
-Later that day, Feris went back and saw the sailor returning. "Hello, sir," Feris said politely. "How much would it cost to sail to the nearest village?"
+Later that day, Feris went down to the riverbank. He saw an old sailor — Daylan — mooring his boat. Feris approached him politely. "Hello, sir. How much would it cost to sail to the nearest village?"
 
 "One lira per person," the old man replied.
 
-Feris nodded and walked back home. They needed work. They needed money.
-
-That's when he remembered the child. He ran to the child's house. "I need a favor," Feris said. "I need five lire."
+Feris nodded. He had the coins, but not enough for the return trip. He went to the child's house. "I need a favor," Feris said. "I need five lire."
 
 "I have it," the child replied without hesitation. "You can return it anytime."
 
@@ -252,13 +299,13 @@ Feris thanked him deeply and returned home. Night began to fall.
 Joie was cleaning the tent when Feris walked up behind her and gently covered her eyes with a cloth. "Brother… what are you doing?" she laughed.
 
 "Don't you like surprises?" he asked. "Then come with me."
-
-And together, they stepped forward into whatever awaited them next.
 `
     },
     {
-        title: "Episode 7",
-        content: `Feris led Joie onto the ship and gently removed the cloth from her eyes. "See it, Joie."
+        title: "Episode 6: The Boat",
+        content: `*The Boat*
+
+Feris led Joie onto the ship and gently removed the cloth from her eyes. "See it, Joie."
 
 For a second, she didn't speak. Then her eyes filled with tears. She hugged Feris tightly. "Thank you, brother… it's our first time on a boat."
 
@@ -268,13 +315,13 @@ The old sailor — Daylan — stepped forward. "You both really want to go? Do y
 
 They stepped onto the boat. As it moved forward, the sound of water calmed their hearts. Feris and Joie sat together, watching the sky change colors as they headed toward Piedmont.
 
-Suddenly, another boat appeared from the side. Daylan stiffened.
+"You know," Daylan said from the stern, "I had a boy once. About your age. Lost him to a raid. Same as you two, he had nowhere to go." He didn't look at them as he spoke. He just kept rowing.
 
-A harsh voice came from the other boat. "Stay where you are. Don't try to move."
+Feris didn't ask what happened. He knew the answer already.
 
-A soldier jumped down onto their boat, sword in hand. Joie clutched Feris's chest, crying. Feris held her tightly. Then he slowly reached for the knife at his belt.
+Suddenly, another boat appeared from the side. A soldier jumped down onto their boat, sword in hand. Joie clutched Feris's chest, crying.
 
-Feris stepped forward. He charged the soldier with everything he had. Feris ducked low and stabbed the knife into his side. The soldier gasped — then staggered. Daylan grabbed an oar and struck him hard across the head. The man collapsed.
+Feris stepped forward. He wasn't a soldier. He didn't know how to fight. But he knew he had to protect her. He charged blindly, driven by pure desperation. The sword slashed near him. Feris ducked low and drove his shoulder into the man's chest, stabbing the knife into his side. It wasn't skill—it was luck. The soldier gasped. Daylan grabbed an oar and struck him hard across the head. The man collapsed.
 
 The captain on the other boat turned to flee. Daylan grabbed Feris's arm. "Don't. Let him go. If we chase, we die."
 
@@ -284,24 +331,31 @@ Feris glanced at the other boat. "What about that one—"
 
 Daylan interrupted him calmly. "That boat is yours now. You earned it. But you don't know how to sail. For now, leave it here. I'll keep it safe."
 
-Feris nodded slowly. They left the boat hidden and continued toward the village.
-`
-    },
-    {
-        title: "Episode 8",
-        content: `They reached Piedmont with Daylan by noon. The town felt alive — voices, footsteps, carts, and unfamiliar faces everywhere.
+Later, when Feris's hands had stopped trembling, Joie whispered, "Brother… you killed a man."
 
-Feris moved through the market, asking shopkeepers for small jobs. Some shook their heads. Still, he didn't stop. Before returning to Joie, he bought a simple but beautiful dress and hid it in Daylan's boat.
+Feris was quiet for a long time. Then he said, "No, Joie. I killed a soldier. A man would never attack children."
 
-That night, after eating, Feris said quietly, "Joie… I have something for you."
+It was the first time he had drawn a line between the two. It wouldn't be the last.
 
-He brought out the dress. Joie froze for a second — then hugged him tightly, tears forming. "You are the best person in my life, brother."
+They reached Piedmont by noon. The town was a bustling merchant hub, surrounded by high stone walls. Inside, it was crowded with refugees from the outer villages, their eyes hollow, their hands begging. The smell of smoke and fear hung in the air, mingling with the spices of the market. Feris moved through the streets, asking shopkeepers for small jobs. But nobody wanted to hire a boy with blood on his sleeves.
+
+He sat on a crate, defeated. He had failed. For the first time since the fire, his plan hadn't worked. He hit the crate with his fist, frustrated. Joie found him there.
+
+"Brother?" she said gently. "What's wrong?"
+
+"I can't find work, Joie. I can't do anything right."
+
+Joie sat beside him. She didn't say anything. She just held his hand. "You're doing everything right," she said finally. "You're just tired."
+
+Before returning to the boat, he bought a simple dress and hid it in Daylan's bag.
+
+That night, after eating, Feris said quietly, "Joie… I have something for you." He brought out the dress.
+
+Joie froze for a second — then hugged him tightly, tears forming. "You are the best person in my life, brother."
 
 She tried it on and stood shyly in front of him. "You look beautiful," Feris said honestly.
 
-Morning came quietly. The food was almost gone. Feris woke early, staring at the ceiling. One lira left.
-
-"I should start wood cutting," he said quietly to himself. "It's a simple beginning… but a beginning."
+Morning came quietly. "I should start wood cutting," Feris said. "It's a simple beginning… but a beginning."
 
 Joie smiled immediately. "I'll be happy if you do that, brother. I can help too."
 
@@ -309,28 +363,32 @@ Feris laughed. "You? The girl who struggles with cutting vegetables wants to cut
 
 Joie crossed her arms. "We'll see how you say no to me."
 
-Feris raised his hands. "Sorry, my sister."
-
 After eating, they went to Daylan. Feris found an axe shop and bought a strong axe and a small box — spending all the money he had.
 
-At the shore, Daylan helped them. "Push both paddles together. If one is late, the boat will turn. And if anything goes wrong — stop immediately."
+At the shore, Daylan helped them. "Push both paddles together. If one is late, the boat will turn."
 
-Feris gripped the paddles — and pushed. The boat moved forward. For the first time, Feris wasn't just surviving. He was starting something.
+Feris gripped the paddles — and pushed. The boat moved forward.
+
+Daylan stayed on the shore. He didn't get in the boat with them. He just watched them go.
+
+When they were far away, he said to the empty air, "Good luck, children. I hope you fare better than mine."
+
+It was the only prayer Daylan knew how to say.
 `
     },
     {
-        title: "Episode 9",
-        content: `When Feris pushed the boat into the water, Joie's eyes lit up. "Brother, can I come in your boat… please?"
+        title: "Episode 7: The Prayer",
+        content: `*The Prayer*
+
+When Feris pushed the boat into the water, Joie's eyes lit up. "Brother, can I come in your boat… please?"
 
 Feris smiled. "Okay — come fast!"
 
 As the boat moved forward, Feris tried to stop it, but there were no buttons. Joie laughed. "Brother, stop doing anything. It will stop by itself."
 
-Feris and Daylan both turned toward her in shock. "How do you know that?"
+Feris turned toward her in shock. "How do you know that?"
 
-Joie folded her hands proudly. "Because I watched how you did it."
-
-Feris laughed in relief. "It stopped! Come on."
+Joie folded her hands proudly. "Because I watched how Daylan did it."
 
 Joie held Feris's hand and stepped into the boat. "Brother, can I help you with the paddles?"
 
@@ -342,20 +400,26 @@ After a while, Joie's arms started to shake. "Oh, brother… can you take over n
 
 Before she could finish, Feris interrupted gently, "Joie… thank you, my sister."
 
-She didn't hug him. She just nodded, and her eyes said everything.
+She didn't hug him. She just nodded.
 
-After some time, they reached the forest. They parked the boat near Daylan's house. Later, Joie asked, "Brother, can you help me cook food?"
+After some time, they reached the forest. Daylan lived on his boat, moored at a small hidden dock near the riverbank. That was where they parked their own boat. He had a small shore-side storage hut for supplies, but he slept on the water.
 
-"Yes," Feris replied.
+That night, Daylan appeared at their tent carrying cooked food. "Don't worry about dinner. I brought some."
 
-Suddenly, there was a knock on the door. Daylan stood there holding cooked food. "Don't worry about dinner. I brought some."
+They ate together peacefully. Feris and Joie lay down to sleep — safe, calm, and together.
 
-They ate together peacefully. That night, Feris and Joie lay down to sleep — safe, calm, and together.
+But before sleep took him, Feris whispered into the dark, "Daylan… why are you helping us?"
+
+There was a long silence from the doorway. Then Daylan's voice, quiet and tired: "When I lost my boy, I had nothing. But a stranger found me. He gave me a boat and told me to live. I never got to thank him. So I'm thanking him by helping you."
+
+Feris closed his eyes. He added a second notch to the tent pole in the morning. He would remember.
 `
     },
     {
-        title: "Episode 10",
-        content: `Feris woke up to find Joie already awake, quietly preparing things near the hearth.
+        title: "Episode 8: The Wood",
+        content: `*The Wood*
+
+Feris woke up to find Joie already awake, quietly preparing things near the hearth.
 
 "Brother, from now on you'll be going to work. Also… I want to help you."
 
@@ -371,16 +435,34 @@ She answered calmly. "Yesterday, the child came and asked for you. He was the on
 
 Feris's work turned out to be harder than he expected. Cutting even a small tree took nearly an hour. By nightfall, he had chopped it into pieces and carried it back home.
 
+His shoulders burned. His hands were raw. But when he stepped inside and saw Joie waiting with a warm fire and a plate of food, the pain faded.
+
 Later that night, Joie stirred slightly. "Brother… it's night."
 
 "Yes," Feris replied quietly, "but I need to finish bringing everything inside."
 
-He stepped out again, worked patiently until all the wood was stored safely, and finally returned inside. The next day began…
+He stepped out again, worked patiently until all the wood was stored safely, and finally returned inside.
+
+Joie was sitting up, waiting for him. "Brother. Sit down."
+
+He did. She took his hands in hers and looked at the blisters, the small cuts, the splinters.
+
+"Does it hurt?" she asked.
+
+"A little."
+
+She pressed her lips to his palms — the way their mother used to. "Then I'll kiss it better. Like Mother did."
+
+Feris's eyes stung. He blinked rapidly. "Joie…"
+
+"Go to sleep, brother," she said, smiling softly. "Tomorrow, I'll have breakfast ready before you wake up."
 `
     },
     {
-        title: "Episode 11",
-        content: `Morning light slipped quietly into the tent. Joie was already awake. She stood near the stove, carefully preparing food.
+        title: "Episode 9: The Wound",
+        content: `*The Wound*
+
+Morning light slipped quietly into the tent. Joie was already awake. She stood near the stove, carefully preparing food.
 
 Feris stood, still half-asleep — then suddenly froze. "Joie… what happened to the wood? Why has its shape changed?"
 
@@ -402,40 +484,58 @@ Slowly, she removed the cloth. Feris saw a deep wound — clearly caused while c
 
 His heart shattered. "Didn't I tell you not to do this?" he shouted, tears forming in his own eyes. "Why did you hide it? Why, Joie?"
 
-Unable to control himself, Feris turned and walked out. Joie sat on the floor, crying silently.
+Unable to control himself, Feris turned and walked out.
 
-After some time, Feris stopped outside. He went back inside. Joie was still there, crying. "I'm very, very sorry, brother…"
+Outside, he stood in the cold morning air. His hands were shaking. He pressed his fist against his mouth and screamed into it — silent, raw, terrified of what could have happened to her.
 
-Feris pulled her into a tight embrace. "Joie… I love you. You are my sister."
+When he went back inside, Joie was still there, crying. "I'm very, very sorry, brother…"
+
+Feris pulled her into a tight embrace. "Joie… you are my sister. You are my life."
 
 "Promise me," Feris said gently, "you'll never lie to me, and never do anything I haven't allowed."
 
 "I promise," Joie replied.
 
+But she hesitated. "Brother… can I ask you something?"
+
+"What?"
+
+"Promise me the same thing. Promise me you'll never hide your pain from me either."
+
+Feris was silent. Then, slowly, he nodded. "I promise."
+
 Later, when they sat to eat, Joie hesitated. "Brother… the wound is on my right hand. Can you help me eat?"
 
 Feris's heart clenched. "Of course. Come here." He gently fed her with his own hand, then ate beside her.
+
+That night, Feris added a *third* notch to the tent pole. But beside it, he carved a tiny heart. Joie saw it and said nothing. She only traced it with her finger, smiling.
 `
     },
     {
-        title: "Episode 12",
-        content: `After some time, Feris heard distant voices outside. "There are no armies here," one voice said. "Burn them. We don't need anyone to know we were here."
+        title: "Episode 10: The Fire",
+        content: `*The Fire*
+
+After some time, Feris heard distant voices outside. "There are no armies here," one voice said. "Burn them. We don't need anyone to know we were here."
 
 Feris's heart tightened. He turned to Joie urgently. "Joie — quickly. Pack only the essentials. Hurry."
 
-They gathered what they could in haste and stepped outside. What they saw froze them. Daylan was running toward them, crying. "Feris! Joie! Take the boats and tools and go — now! My house has been burned. Run!"
+They gathered what they could in haste and stepped outside. What they saw froze them. Daylan was running toward them from the riverbank, crying. His small shore-side storage hut—the one he used for supplies during the winters—was in flames. "Feris! Joie! Take the boats and tools and go — now! The King's men burned my hut. Run!"
 
 Before Feris could respond, an arrow flew past them, barely missing.
 
 Daylan climbed into his own boat and began rowing hard. Feris and Joie entered theirs. Feris hesitated for a moment — driving alone under fear — but Joie, terrified yet brave, helped him push harder.
 
-Suddenly, a soldier appeared with a flaming arrow. Without hesitation, Feris threw the knife. It struck the soldier's shoulder. Daylan rowed past and struck him with an oar. The soldier fell into the water.
+Suddenly, a soldier appeared with a flaming arrow. Without hesitation, Feris reached for his father's knife. He threw it. It spun through the air and struck the soldier's shoulder. Daylan rowed past and struck him with an oar. The soldier fell into the water.
+
+Feris watched the knife disappear into the dark water. His father's knife. It was gone.
+
+He had no time to grieve. They rowed on.
 
 Ahead, the river split into two paths. "Right!" Daylan shouted. "You go left!"
 
 Feris turned left — but his breath caught in his throat. The village ahead was nothing but ashes.
 
-Feris immediately changed direction and continued straight into the darkness. Night fell. After some time, Feris saw it — a dead end.
+He immediately changed direction and continued straight into the darkness. Night fell. After some time, Feris saw it — a dead end.
 
 "Joie?" he called. No answer. She had fallen asleep.
 
@@ -449,34 +549,50 @@ She opened her eyes slowly. "Brother… it's very cold."
 
 Fever. He quickly removed his coat and wrapped it around her. "Joie, please eat something," he said softly.
 
-When she fell asleep again, Feris sat beside her, watching her breathe. Tears slipped from his eyes. After some time — exhausted, broken, and afraid — Feris finally fell asleep too.
+When she fell asleep again, Feris sat beside her, watching her breathe. Tears slipped from his eyes.
+
+*Don't take her. Please. Anyone — anything — don't take her. Take me instead. Take me.*
+
+He didn't know who he was praying to. He only knew the words.
+
+After some time — exhausted, broken, and afraid — Feris finally fell asleep too.
 `
     },
     {
-        title: "Episode 13",
-        content: `The next morning, Feris went out to explore the nearby area. Not far from the tent, he found a forest, a flowing river, and a wide patch of clear land. To his surprise, there were four fig trees — heavy with ripe fruit — and an olive tree, its branches silver-green in the light. It felt like a small blessing.
+        title: "Episode 11: The Loss",
+        content: `*The Loss*
 
-When Feris returned to the tent, he saw Joie sitting up, watching the door — waiting. "Brother… where were you? I've been calling you for so long."
+The next morning, Feris woke with a heaviness in his chest. It only took him a moment to remember why.
 
-Feris sat beside her, gently wiping her tears. "I was just around the tent, Joie. You should rest properly, okay?"
+His father's knife was gone. He had thrown it at the soldier. It was somewhere at the bottom of the river now, lost forever. The only thing he had left of his father was gone.
 
-He touched her forehead — still warm. "Joie, I found something. Do you want to see?"
+Feris went out to explore the nearby area. Not far from the tent, he found a forest, a flowing river, and a wide patch of clear land. To his surprise, there were four fig trees — heavy with ripe fruit — and an olive tree, its branches silver-green in the light. It felt like a small blessing.
 
-She shook her head weakly. "No… just stay. I feel better when you talk to me."
+But when he returned to the tent, he stopped.
 
-Feris smiled sadly. "I'll be back in just two minutes, my dear. I promise."
+The loss hit him again. Not discovery this time—just the raw grief of a boy who had lost the last piece of his father.
 
-Feris stepped outside quickly and returned with a handful of fresh olives. "Look, Joie. Olives."
+Feris sank to his knees outside the tent. He put his head in his hands.
 
-Her eyes lit up. "Oh, brother… thank you."
+"I'm no good," he whispered. "I'm not a good brother. Not a good child. I've even lost the last thing of my father. I'm not…"
 
-Feris touched her shoulders gently. "Joie, I need to cut some wood today. If you allow me, I'll help you sit near the olive tree. You can eat, watch me work, and talk to me."
+Joie found him there. She didn't say a word. She just ran to him and hugged him tightly, cutting off his words.
 
-He guided her to the tree, wrapped her in her blanket, and settled her near its roots. He shook the branches lightly, and olives fell around them. Then he brought water from the river, washing each one carefully.
+"Oh, Brother," she said, her voice firm and gentle. "Do you know you are the best person in my life? The best brother, and the best child too. Brother, the thought that 'I am no good' is only what is said by good people. It's proof that you are good. Bad people don't care about it."
+
+She held his face in her hands. "Brother, with you I feel safe. Comfortable. And yes — with you I want to be. If you had died at the incident too, I couldn't live by myself. But you didn't. You survived for me. You cared for me. You stopped me from doing work. You really, really are a good person."
+
+Feris looked at her. He didn't say anything. He just hugged her back, and cried.
+
+When he finally pulled away, he wiped his face. "You're right," he said quietly. "But I still need a blade."
+
+He searched his pack and found a small paring knife. It was nothing special — just an old thing his mother had used for cooking. But it was sharp, and it was something.
+
+Later, he guided Joie to the olive tree, wrapped her in her blanket, and settled her near its roots. He shook the branches lightly, and olives fell around them. Then he brought water from the river, washing each one carefully.
 
 Joie laughed as she tried to stop him. "Brother! That's enough!"
 
-Feris laughed too. Inside, Feris felt something warm — hope. Seeing her laugh made everything feel lighter.
+Feris laughed too. Inside, he felt something warm — hope. Seeing her laugh made everything feel lighter.
 
 After some time, Joie asked, "Brother… those are fig trees too, right?"
 
@@ -484,16 +600,16 @@ After some time, Joie asked, "Brother… those are fig trees too, right?"
 
 "After cooking," she smiled.
 
-Feris cut two small trees while talking to her the whole time. When he finished, he carried everything back to the tent.
+Feris cut two small trees while talking to her the whole time. He told her a story their father used to tell — about a shepherd who outsmarted a giant with nothing but a sling and a stone. Joie listened with her eyes closed, smiling.
 
-Later, he prepared the figs, and they ate together in silence, comfortable and calm. As night fell, Joie touched her cheek softly and whispered, "Thank you, brother… because of you, I feel better now."
-
-Feris had already fallen asleep. The night passed quietly.
+When he finished, he carried everything back to the tent. As night fell, Joie touched her cheek softly and whispered, "Thank you, brother… because of you, I feel better now."
 `
     },
     {
-        title: "Episode 14",
-        content: `Morning arrived quietly. Feris returned from his work and immediately noticed Joie was already awake. She sat upright, her breathing steady. Color had returned to her cheeks.
+        title: "Episode 12: The Edge",
+        content: `*The Edge*
+
+Morning arrived quietly. Feris returned from his work and immediately noticed Joie was already awake. She sat upright, her breathing steady. Color had returned to her cheeks.
 
 "Joie… are you feeling better now?"
 
@@ -505,9 +621,11 @@ Hope slowly returned to Joie's eyes. "Oh, brother… then when are we going?"
 
 "After we eat," Feris replied. "I brought figs. Can you cook them?"
 
-They prepared the food together and ate in silence. Afterward, Feris packed the firewood. Most of it fit into the boat, but one bundle was too large — he left it behind. Before leaving, he took his axe and his knife, just in case.
+They prepared the food together and ate in silence. Afterward, Feris packed the firewood. Most of it fit into the boat, but one bundle was too large — he left it behind. Before leaving, he took his axe and the paring knife.
 
-They pushed the boat into the river and followed a different route this time, moving upstream. Hours passed. Still, there was nothing — no houses, no smoke, no signs of life.
+They pushed the boat into the river and followed a different route this time. They didn't use the captured boat — neither of them knew how to sail it, and it was too heavy to row alone. Daylan had told them to leave it, and so they did.
+
+Hours passed. Still, there was nothing — no houses, no smoke, no signs of life. Only burnt fields and the distant echo of war.
 
 Then— "There," Joie whispered.
 
@@ -515,13 +633,19 @@ Ahead, a village appeared. Relief washed over Feris. They docked near the shore 
 
 Feris sold the wood to a shopkeeper for seven lire. With five, he bought food. With one, he bought utensils and tools. The last lira, he hid away.
 
-As they walked back toward the boat, the air changed. Footsteps. Shadows moved between the buildings. Four — no, five swordsmen emerged.
+As they walked back toward the boat, Joie stopped suddenly. "Brother… listen."
+
+Feris froze. Voices. Footsteps. Shadows moved between the buildings.
+
+"They're coming from the east," Joie whispered, her grip tightening on his sleeve. "We need to go west."
+
+Feris nodded. She was right. But before they could move, four — no, five swordsmen emerged from the alley.
 
 Feris stepped forward instantly. "Joie — go!"
 
 She froze. Fear filled her eyes, but she didn't run. She believed in him.
 
-The soldiers attacked. Steel clashed. Feris fought with everything he had. He struck one man with the knife — but the others closed in.
+The soldiers attacked. Steel clashed. Feris fought with everything he had. He struck one man with the paring knife — but the others closed in. He was outnumbered. He was exhausted. He was a child.
 
 He knew he couldn't win. Feris grabbed Joie's hand and ran.
 
@@ -535,7 +659,12 @@ Then a soldier seized Feris's arm. Their hands slipped apart.
 
 The boat drifted away. The river swallowed her cries as the soldiers dragged Feris back.
 
-He was bound and taken captive. They were not many — about ten men. They called themselves the Acurs.
+He was bound and taken captive. They were not many — about fifteen men. They called themselves the Acurs.
+`
+    },
+    {
+        title: "Episode 13: The Leader",
+        content: `*The Leader*
 
 He was brought before their leader. "Hey, child," the man said coldly. "What's your name?"
 
@@ -543,9 +672,13 @@ Feris lifted his head, eyes burning. "What do you want from me? Why do you burn 
 
 The leader laughed bitterly. "Because of need. Listen."
 
-And he told his story — a story that was far more tragic than Feris expected. "Once, the Northern Kingdom burned my village into ashes. I was younger than you when I saw my own father die in the flames. When I grew up, my revenge grew bigger. I joined the King's army and became the leader of fifty soldiers. For a time, I was loyal. But the King's cruelty knew no bounds. I decided to betray him. I gathered my fifty men and told them the truth—that we were going to destroy the kingdom from within and end the slaughter. All fifty agreed. But the next day, thirty-three of them went to the King. They sold me out. The King threw me and my fifteen loyal men into prison. We rotted there for three years. But after three years, the two guards watching our cell realized I was right. They helped us escape. When I got out, I promised myself I would burn down everything the King loves. Everything he built. Every person who follows him."
+And he told his story — a story that was far more tragic than Feris expected. "Once, the Northern Kingdom burned my village into ashes. I was a grown man by then, a soldier in the King's army. My father was old. He caught a fever. I begged for leave to go home and care for him. They refused. I was stationed too far away. By the time I escaped and returned… my father was already dead. He died of fever, alone, while I was locked in a prison cell for desertion. I never forgave them. I never forgave myself. When I finally got out, I promised myself I would burn down everything the King loves."
 
-The leader looked at Feris. "Will you join us?"
+The leader stopped. He looked down at his own hands, as if seeing something on them that Feris could not. The silence stretched.
+
+Then he spoke again, his voice quieter. "But I was wrong. In my anger, I burned villages too. I told myself I was only hurting the King's supporters. But I wasn't. I was leaving orphans. Just like the King did to me. Just like I was doing to you."
+
+He looked at Feris. "Will you join us?"
 
 Feris didn't answer right away. His hands were shaking. He was just a boy, tired and hungry, and this man was asking him to become a killer.
 
@@ -567,10 +700,14 @@ The leader stopped. For a long moment, he said nothing. Then, quietly— "Free h
 `
     },
     {
-        title: "Episode 15",
-        content: `The soldiers hesitated. "But why free him? He could become a great warrior. And what about the soldier he killed?"
+        title: "Episode 14: The Mercy",
+        content: `*The Mercy*
 
-The leader's voice was heavy with emotion. "The man he killed was defending himself. And as for greatness—yes, he could become a great soldier. I wanted that too. But he has something stronger than any blade or army. His sister. Their bond. He doesn't seek power. He seeks peace. And the pain he's living through now… I once lived it myself. When my father was burning with fever, I stood helpless—just like he did. The soldiers didn't let me go. When I was finally freed and returned home… my father was already dead. I will not let my mistake become another man's fate. Free him. Now."
+The soldiers hesitated. "But why free him? He could become a great warrior. And what about the soldier he killed?"
+
+The leader's voice was heavy with emotion. "The man he killed was defending himself. My men told me what happened — the boy and his sister were attacked. He was protecting her."
+
+He paused. "And as for greatness—yes, he could become a great soldier. I wanted that too. But he has something stronger than any blade or army. His sister. Their bond. He doesn't seek power. He seeks peace. And the pain he's living through now… I once lived it myself. When my father was burning with fever, I stood helpless—just like he did. The soldiers didn't let me go. When I was finally freed and returned home… my father was already dead. I will not let my mistake become another man's fate. Free him. Now."
 
 The soldiers obeyed. Feris was released and guided toward the village.
 
@@ -590,12 +727,24 @@ He smiled faintly. "Yes. It's me. Now help me stand. I'm very tired… and very 
 
 She smiled through tears. Together, slowly, they walked inside.
 
-Later, they shared everything—what each had suffered while apart. As they lay down to sleep, Joie lay beside him, and he rested his hand on her head—protective, grateful, present. And finally… he slept.
+Later, they shared everything—what each had suffered while apart. Joie told him about the night she spent alone, how she had held the paring knife against her chest and promised herself she would use it if anyone tried to take her.
+
+Feris told her about the leader, the story, the mercy.
+
+"You changed him, brother," Joie whispered. "You changed a man who thought he had nothing left to lose."
+
+Feris shook his head. "No. He changed himself. I just… reminded him that he had a choice."
+
+That night, Feris added a *fourth* notch to the tent pole. And a *fifth*. One for the day he lost his father's knife, and one for the day he came back to her.
+
+He looked at the notches and thought, *I want her to be there to see the next one.*
 `
     },
     {
-        title: "Episode 16",
-        content: `Morning did not arrive gently. Feris woke long before dawn. Without waking Joie, he quietly stepped outside, took his axe, and began working. By the time the sky hinted at light, he had already cut two trees halfway through.
+        title: "Episode 15: The Notches",
+        content: `*The Notches*
+
+Morning did not arrive gently. Feris woke long before dawn. Without waking Joie, he quietly stepped outside, took his axe, and began working. By the time the sky hinted at light, he had already cut two trees halfway through.
 
 After some time, Joie woke up. She rushed outside. "Brother!"
 
@@ -605,7 +754,7 @@ She found him standing still, eyes distant. Without warning, she clapped her han
 
 Feris blinked, then smiled softly at her. "I was thinking about someone I met yesterday. He was kind… but revenge had burned him."
 
-As the day went on, Feris returned to work. Joie watched him from the doorway. Her chest tightened. He's doing everything for me… and I'm doing nothing.
+As the day went on, Feris returned to work. Joie watched him from the doorway. Her chest tightened. *He's doing everything for me… and I'm doing nothing.*
 
 Unable to hold it anymore, she ran to him. "Brother… can I ask you for one thing?"
 
@@ -639,8 +788,6 @@ She stared at him, realized the lie — and smiled. Both of them laughed.
 
 Joie smiled in relief. "Oh… thank you, brother."
 
-Feris added gently, "But first, your hand must heal properly. Only then will I allow you."
-
 They talked casually — until a burnt smell filled the tent. Feris sniffed the air. "…Joie."
 
 Her eyes widened. "The food!"
@@ -648,15 +795,19 @@ Her eyes widened. "The food!"
 They rushed back inside. The meal was burnt. Feris laughed. "Maybe you should master cooking first before moving on to another job."
 
 She cooked again, and this time they ate properly.
+
+That night, Feris added a *sixth* notch to the tent pole.
 `
     },
     {
-        title: "Episode 17",
-        content: `Joie knew Feris would wake up early again. So the night before, she quietly placed a small utensil beneath the blanket near his feet. A perfect plan, she thought.
+        title: "Episode 16: The Alarm",
+        content: `*The Alarm*
+
+Joie knew Feris would wake up early again. So the night before, she quietly placed a small utensil beneath the blanket near his feet. A perfect plan, she thought.
 
 Morning arrived. The utensil clinked softly. Joie's eyes opened at once. She stayed still, waiting. Moments later, Feris carefully slipped out of bed and stepped outside. Only then did Joie rise.
 
-She moved quickly but quietly, preparing food. While working, she noticed the axe still inside. Then her eyes fell on the water bottle. He'll come back, she thought.
+She moved quickly but quietly, preparing food. While working, she noticed the axe still inside. Then her eyes fell on the water bottle. *He'll come back,* she thought.
 
 Sure enough, Feris returned to grab the bottle. But he stopped. The fireplace was warm. Water was already boiling.
 
@@ -696,8 +847,10 @@ As they moved toward home, Feris tried to ask— But Joie smiled mischievously. 
 `
     },
     {
-        title: "Episode 18",
-        content: `They returned home at night. Feris kept glancing at the small box Joie had brought with her. Curiosity quietly grew inside him.
+        title: "Episode 17: The Gift",
+        content: `*The Gift*
+
+They returned home at night. Feris kept glancing at the small box Joie had brought with her. Curiosity quietly grew inside him.
 
 But Joie noticed his restlessness. "Brother, I told you tomorrow. Why are you thinking I'll show it to you now?"
 
@@ -721,6 +874,28 @@ He was genuinely happy. "You did this because my first gift to you was also clot
 
 She shook her head. "No, brother. I did it because I love you."
 
+Feris looked at the clothing again. It was simple — but the stitching was neat, careful, and the fabric was soft. She must have spent hours choosing it. Hours, from the little money she had.
+
+"Joie," he said quietly. "This cost you almost everything, didn't it?"
+
+She looked down. "It doesn't matter."
+
+"It matters to me." He sat beside her. "Why?"
+
+"Because you gave me a dress the day we arrived," she said. "And you didn't have to. You could have spent that money on food. But you spent it on me. And every day since, you spend everything on me. So… one day, I wanted to spend something on you."
+
+Feris couldn't speak for a moment. Then he pulled her into a hug — tight, fierce, and full of everything he couldn't say.
+
+They sat there for a while in silence.
+
+"What will you do?" Joie asked quietly. "When the war ends?"
+
+Feris thought for a moment. "I want to build a house. A real one. With a door."
+
+Joie laughed. "With a door?"
+
+"Yes," he said. "So you can knock."
+
 They ate together after that. Later, they went to the village and sold the wood. On the way back, Joie looked around and said, "Brother, this place is good… why don't we settle here?"
 
 Feris answered calmly, "We sell wood and branches, but there's no forest nearby. If we ask for work, people won't trust us at first — and you'd be alone. Our place is peaceful. We are safe there."
@@ -731,10 +906,16 @@ They turned back toward their home— And that's when they saw…
 `
     },
     {
-        title: "Episode 19",
-        content: `They saw it. Their tent had been burned to ashes.
+        title: "Episode 18: The Promise",
+        content: `*The Promise*
+
+They saw it. Their tent had been burned to ashes.
 
 Feris and Joie froze. Their bodies trembled as they ran forward. But inside, everything was destroyed.
+
+Feris stood in the ruins. He saw the tent pole — the one with the notches. The wood was charred and broken. The *six* notches were gone. The little heart was gone.
+
+*Day one. Day two. Day three. Day four. Day five. Day six.* All of it, erased.
 
 Joie broke down, crying uncontrollably. "Brother… it happened again. We lost our home again."
 
@@ -758,11 +939,13 @@ Two of the Acurs caught them from the side. They were brought before the leader 
 
 "You're the boy from the river," he said quietly. "The one who refused to join us. And this is your sister."
 
-The leader continued. "The war between the kingdoms is almost over. One more death — one more — and it ends. If the king of this land dies, his army collapses. And the killing stops."
+The leader continued. "The war between the kingdoms is almost over. The Northern Kingdom, and the Southern Kingdom. The kings of both lands had been fighting for so long no one remembered why. I fight the Northern King. His army is the one burning your villages. One more death — one more — and it ends. If the king dies, his army collapses. And the killing stops."
 
 "Then kill him yourself," Feris said.
 
-"I can't. The King's personal guard watch every known rebel. They know my face. But a child? A child walking toward the king with a stolen bow? No one watches a child."
+"I can't. The King's personal guard watch every known rebel. They know my face. But a child? A child walking toward the king with a borrowed bow? No one watches a child."
+
+The leader paused, looking at Feris. He seemed to struggle with himself. "I know what I'm asking," he said quietly. "I know it's wrong. But there is no one else."
 
 Feris shook his head. "No."
 
@@ -770,19 +953,35 @@ The leader looked at Joie. "Girl… tell him."
 
 Joie was crying. But she looked at Feris. "Brother… if it ends the war…"
 
-"Don't," Feris said.
+"Don't," Feris said. But his voice was shaking.
 
-"I'm not asking you to die," Joie said. She grabbed his hand, her tears falling fast. "I'm asking you to end it. But you have to promise me. Promise me you'll come back."
+"I'm not asking you to die," Joie said. "I'm asking you to end it. But you have to promise me. Promise me you'll come back."
 
-Feris looked at her. His eyes burned. "I promise."
+Feris looked at her. His eyes burned. He thought of the six notches on the pole, burned to ash. He thought of the knife he had lost. He thought of the Acurs leader's words: *By burning the innocent to reach the guilty, you've become the same thing you hate.*
+
+He was not doing this for revenge. He was not joining the Acurs. He was doing this because if the King lived, more tents would burn. More notches would be carved. More children would be left in the dark.
+
+"I promise," he said. "I'll come back."
 
 He turned to the leader. "I'll do it."
 
-That night, they killed a soldier from the other kingdom. They took his bow. The leader showed Feris how to stand. How to aim. "Not the body," the leader said. "The heart. Always the heart."
+The leader nodded. For a moment, his cold face broke — just slightly. "You're a better man than I was at your age, boy."
+
+Joie was left with two Acurs guards at the edge of the forest. Feris kissed her hand one last time, then followed the leader.
+
+That night, the Acurs killed a Southern soldier who was scouting the Northern road. They needed a bow. They took it. Feris watched them do it. It was a murder. Cold, quick, and ugly. But the King had killed thousands. The math was ugly. But it was the only math that ended the war. Feris looked away. He didn't have the luxury of a clean conscience anymore.
+
+The leader showed Feris how to stand. How to aim. "Not the body," the leader said. "The heart. Always the heart."
 
 Feris practiced until his hands bled. They set the plan in motion.
 
 The leader disguised himself as a poor man and walked toward the king's convoy. Feris hid in the trees, bow raised, breath shallow.
+
+The King was traveling with only a small guard, inspecting the front lines. It was the only time he would be exposed.
+
+Before he stepped out, the leader turned to Feris one last time. "If I don't come back — find my sister. She lives in the village of Kestrel. Tell her… tell her I tried."
+
+Feris nodded. "I will."
 
 The king looked down at the poor figure approaching him. "Are you here for death too? Come a bit closer — and death will approach you."
 
@@ -794,9 +993,11 @@ At the same moment, eight arrows struck the poor man — the leader of the Acurs
 
 The king fell from his horse. The royal guards panicked, rushing to their fallen leader, their formation breaking into chaos.
 
+Feris lowered the bow. His hands were shaking. He had just killed a man. A king. A monster. But still a man. He felt sick. He felt cold.
+
 Through that chaos, the Acurs charged forward, clashing with the guards to create a diversion.
 
-One of the Acurs — blood on his cheek — ran past Feris. "When I raise my hand," he said, "go to your sister. As fast as you can. Don't look back."
+One of the Acurs — blood on his cheek — ran past Feris and grabbed his shoulder. "When I raise my hand," he said, "go to your sister. As fast as you can. Don't look back."
 
 Feris watched him — breath held — waiting.
 
@@ -806,8 +1007,12 @@ Feris ran. He ran through the trees. He ran toward Joie.
 `
     },
     {
-        title: "Episode 20",
-        content: `Joie woke to an empty tent. No soldiers. No guards. Only silence — and the hollow space where her brother had been.
+        title: "Episode 19: Just Like A Whisper",
+        content: `*Just Like A Whisper*
+
+The two Acurs guards who had been watching Joie fled when the fighting started. They were not soldiers. They were just men who wanted to survive.
+
+Joie woke alone in the clearing. No guards. No tent. No brother. Only silence.
 
 She understood. Her face went pale. She ran. "BROTHER!"
 
@@ -817,7 +1022,7 @@ Far ahead, Feris heard something. He stopped. Turned. And there — far behind h
 
 He ran back.
 
-The soldiers saw it. The commander raised his hand. "Archers."
+The royal guards, still fighting the Acurs in the smoke and chaos, fired blindly into the woods. Arrows flew through the trees.
 
 Feris and Joie ran toward each other. Their faces were streaked with tears. Both of them were smiling — even now.
 
@@ -831,9 +1036,11 @@ The second volley came. An arrow struck Feris in the back. An arrow struck Joie 
 
 They staggered.
 
-For one long, impossible moment, they stood facing each other — close enough to see each other's eyes.
+For one long, impossible moment, they stood facing each other — close enough to see each other's eyes. Close enough to hear each other breathe. Close enough to see the blood on each other's clothes.
 
-Then their legs gave way. Each one fell where they stood — Feris forward, Joie backward.
+Neither of them looked away.
+
+Then their legs gave way. Each one fell where they stood — Feris forward, Joie backward. Their bodies hit the cold dirt with a soft, final weight.
 
 For a moment, there was only silence.
 
@@ -875,31 +1082,99 @@ The wind passed over them, softly — just like a whisper.
 `
     },
     {
-        title: "The End",
-        content: `Behind them, in the distance, a single old man rowed toward the shore. Daylan reached the road, saw the two small figures lying together, and dropped to his knees. He only closed their eyes — hers first, then his — and whispered, "Sleep, children. You are together now. You always were."
+        title: "Epilogue: The Story",
+        content: `*The Story*
 
-Far away, the war ended. The king was dead. The Acurs were captured. The Northern Kingdom fell into silence.
+Behind them, in the distance, a single old man rowed toward the shore. Daylan reached the road, saw the two small figures lying together, and dropped to his knees.
 
-And no one — no one — ever spoke of the two children who died on that road.
+He didn't cry. He had used up his tears long ago. He simply sat with them until the sun went down.
 
-But somewhere, in the way the wind moved through the trees, their names were still carried.
+Then he went to the village of Kestrel. He found the leader's sister. He told her everything—how her brother had sacrificed himself, how he had saved two children, how he had tried, in the end, to be the man she believed he could be.
+
+She wept. But she also smiled. She asked Daylan to stay. And he did.
+
+Together, they returned to the road where Feris and Joie lay. With the help of the villagers, they built two graves on a small hill overlooking the river.
+
+Daylan placed a flower on each grave. "Feris," he whispered. "Joie."
+
+Then he went home to Kestrel and lived there for the rest of his days.
+
+---
+
+Many years passed.
+
+The war ended. The Northern King was dead, his armies scattered. The Southern Kingdom slowly rebuilt. There were no more wars. No more burning villages. No more children in the forest. But the world was slow to heal, and the people carried the weight of everything they had lost.
+
+In Kestrel, an old man sat on a wooden porch, surrounded by three young children.
+
+The old man was Daylan. He was very old now, his hair white, his hands rough from a lifetime of rowing. But his eyes still held a warmth that could not be extinguished.
+
+"Grandfather," the smallest child said, climbing onto his knee. "Tell us the story again."
+
+Daylan smiled. "Which story, little one?"
+
+"The one about the two children," the child said. "The brother and the sister. The one who held hands."
+
+Daylan's eyes softened. He looked out at the fields, at the quiet world, at the peace that had been bought so dearly.
+
+"Once," he began, "in a time of great darkness, there were two children — a brother and a sister. Their names were Feris and Joie. And they loved each other more than anything in the world."
+
+The children gathered closer. They had heard the story a hundred times. But they never tired of it.
+
+"Life was hard for them," Daylan continued. "They had nothing. No home. No food. Only each other. And a small knife."
+
+He paused.
+
+"On their journey, they lost everything. They lost their home. They lost their friends. They lost the only things they owned. But they never lost each other."
+
+The children were silent. Even the smallest one had stopped fidgeting.
+
+"In the end," Daylan said quietly, "there was a great war. And two children stood between the war and the world. The brother had a bow. The sister had a heart full of courage. And they ran toward each other, because that's what they always did. Even in the darkest moments, they always ran toward each other."
+
+"And then?" the eldest child asked, though she already knew the answer.
+
+"And then," Daylan said, "they fell."
+
+The silence stretched for a long moment.
+
+"But they held hands," the smallest child said softly. "Right, Grandfather? They held hands."
+
+"Yes," Daylan said. "They held hands."
+
+He was quiet for a moment.
+
+"You know," he said, "they didn't save the world by killing a king. They saved it by loving each other. The war was ended by a bow, but it was the bond between a brother and a sister that made them willing to pick it up in the first place."
+
+He looked at his grandchildren.
+
+"Remember them," he said. "Feris and Joie. The children who chose love when the world chose hate. And when you have children of your own, tell them this story. Tell them that even when everything is taken from you, love is the one thing that cannot be taken away."
+
+The children nodded solemnly.
+
+Daylan stood up. He took his walking stick and led them down the path, through the village, to a small hill overlooking the river.
+
+There, on the hill, were two wooden grave markers. They had faded with time, and the names had been worn away by rain and wind. But Daylan knew where they were. He had come here every year for as long as he could remember.
+
+He knelt down and placed a small flower on each grave.
+
+"Feris," he whispered. "Joie."
+
+Then he stood up, and the children gathered around him, and they walked back home.
+
+And somewhere, in the way the wind moved through the trees, in the way the river whispered against the shore, their names were still carried.
 
 Feris. Joie.
 
-Together. Even after this life. Just like a whisper.
+Together. Even after this life.
 
-THANK YOU FOR READING
+Just like a whisper.
 
-JUST LIKE A WHISPER
+THE END
 
-Contact the Author:
+---
 
-storieswebsite1@gmail.com
-
-*All characters, places, and events depicted in this series are entirely fictional. Any resemblance to actual history or persons is purely coincidental.*
-
-The Story starts and ends —
-Just Like A Whisper.
+*The story starts and ends —*
+*Just like a whisper.*
 `
     }
 ];
